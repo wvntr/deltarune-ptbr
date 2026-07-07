@@ -4,10 +4,10 @@ Estes são os termos que foram padronizados, seja por aparecem repetidas vezes e
 
 | Original | Tradução | Informação |
 |---|---|---|
-| Dark World | ??? | Em discussão. |
-| Light World | ??? | Em discussão. |
-| Darkners | ??? | Em discussão. |
-| Lightners | ??? | Em discussão. |
+| Dark World | Mundo das Trevas | — |
+| Light World | Mundo da Luz | — |
+| Darkners | Trevanos | — |
+| Lightners | Luzianos | — |
 | Castle Town | Cidade Castelo | — |
 | HP | HP | Sigla não traduzida por já ser padronizada em todos os jogos. |
 | TP | PT | Pontos de Tensão, traduzidos por ser uma estatística exclusiva do jogo. |
