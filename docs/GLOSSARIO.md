@@ -1,6 +1,6 @@
 # Glossário
 
-Estes são os termos que foram padronizados, seja por aparecem repetidas vezes e serem muito comuns ou por precisarem ser mais curtos por razões específicas.
+> Estes são os termos que foram padronizados, seja por aparecem repetidas vezes e serem muito comuns ou por precisarem ser mais curtos por razões específicas.
 
 | Original | Tradução | Observação |
 |---|---|---|
