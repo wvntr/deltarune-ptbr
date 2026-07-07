@@ -5,11 +5,11 @@ Estes são os termos que foram padronizados, seja por aparecem repetidas vezes e
 | Original | Tradução | Observação |
 |---|---|---|
 | SOUL | ALMA | |
-| Dark World | Mundo Sombrio | |
+| Dark World | Mundo das Trevas | |
 | Light World | Mundo da Luz | |
 | Darkners | Trevianos | |
 | Lightners | Luzianos | |
-| Kris | Kris | Sem gênero atribuído |
+| Kris | Kris | Não possui gênero atribuído, não usamos artigo. |
 | Susie | Susie | |
 | Ralsei | Ralsei | |
 | Castle Town | Cidade Castelo | |
