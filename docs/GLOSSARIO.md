@@ -2,7 +2,7 @@
 
 Estes são os termos que foram padronizados, seja por aparecem repetidas vezes e serem muito comuns ou por precisarem ser mais curtos por razões específicas.
 
-| Original | Tradução | Informação |
+| Original | Tradução | Informação Extra |
 |---|---|---|
 | Dark World | Mundo das Trevas | — |
 | Light World | Mundo da Luz | — |
