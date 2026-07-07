@@ -2,6 +2,7 @@
 
 Estes são os termos que foram padronizados, seja por aparecerem repetidas vezes e serem muito comuns ou por precisarem ser mais curtos por razões específicas.
 
+<<<<<<< Updated upstream
 | Original | Tradução | O que é | Quando ocorre |
 |---|---|---|---|
 | SOUL | ALMA | A essência vermelha em formato de coração que representa a determinação do ser. No jogo, é o que o jogador controla nos momentos de batalha e diálogo com Kris. | Sempre presente em batalhas (é o alvo dos ataques inimigos) e em momentos-chave da história onde o jogador faz escolhas. |
@@ -16,3 +17,15 @@ Estes são os termos que foram padronizados, seja por aparecerem repetidas vezes
 | SAVE | SALVAR | Pontos de salvamento espalhados pelo jogo, representados por uma luz brilhante no chão. Permitem salvar o progresso, curar o time e mudar equipamentos. | Disponíveis em áreas seguras tanto no Mundo Sombrio quanto no Mundo da Luz. |
 | HP | HP | *Health Points* — Pontos de Vida. Medem a saúde do personagem em batalha. Se chegar a 0, o personagem desmaia. | Usado durante batalhas e na interface de status dos personagens. |
 | TP | PT | *Tension Points* — Pontos de Tensão. São acumulados ao longo das batalhas para usar magias, habilidades e atos especiais. | Ganho quando um ataque inimigo passa de raspão pela ALMA (quase acerta mas não acerta totalmente) durante uma batalha, ou ao defender. |
+=======
+| Original | Tradução | Informação |
+|---|---|---|
+| SOUL | ALMA | — |
+| Dark World | ??? | Em discussão. |
+| Light World | ??? | Em discussão. |
+| Darkners | ??? | Em discussão. |
+| Lightners | ??? | Em discussão. |
+| Castle Town | Cidade Castelo | — |
+| HP | HP | Sigla não traduzida por já ser padronizada em todos os jogos. |
+| TP | PT | Pontos de Tensão, traduzidos por ser uma estatística exclusiva do jogo. |
+>>>>>>> Stashed changes
