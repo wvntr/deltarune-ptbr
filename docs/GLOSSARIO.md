@@ -4,15 +4,12 @@ Estes são os termos que foram padronizados, seja por aparecem repetidas vezes e
 
 | Original | Tradução | Observação |
 |---|---|---|
-| SOUL | ALMA | — |
-| Dark World | ??? | Em discussão |
-| Light World | ??? | Em discussão |
-| Darkners | ??? | Em discussão |
-| Lightners | ??? | Em discussão |
+| Dark World | ??? | Em discussão. |
+| Light World | ??? | Em discussão. |
+| Darkners | ??? | Em discussão. |
+| Lightners | ??? | Em discussão. |
 | Kris | Kris | Não possui gênero atribuído, não usamos artigo. |
-| Susie | Susie | — |
-| Ralsei | Ralsei | — |
 | Castle Town | Cidade Castelo | — |
 | SAVE | SALVAR | — |
 | HP | HP | Sigla não traduzida por já ser padronizada em todos os jogos. |
-| TP | PT | Pontos de Tensão, traduzidos por ser uma estatística exclusiva do jogo. |
+| TP | PT | Pontos de Tensão, traduzidos por ser uma estatística exclusiva de Deltarune. |
