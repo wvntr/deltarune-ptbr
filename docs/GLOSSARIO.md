@@ -4,12 +4,12 @@ Estes são os termos que foram padronizados, seja por aparecem repetidas vezes e
 
 | Original | Tradução | Observação |
 |---|---|---|
-| Dark World | ??? | Em discussão. |
-| Light World | ??? | Em discussão. |
-| Darkners | ??? | Em discussão. |
-| Lightners | ??? | Em discussão. |
+| Dark World | — | Em discussão. |
+| Light World | — | Em discussão. |
+| Darkners | — | Em discussão. |
+| Lightners | — | Em discussão. |
 | Kris | Kris | Não possui gênero atribuído, não usamos artigo. |
-| Castle Town | Cidade Castelo | — |
+| Castle Town | — | Em discussão. |
 | SAVE | SALVAR | — |
 | HP | HP | Sigla não traduzida por já ser padronizada em todos os jogos. |
 | TP | PT | Pontos de Tensão, traduzidos por ser uma estatística exclusiva de Deltarune. |
