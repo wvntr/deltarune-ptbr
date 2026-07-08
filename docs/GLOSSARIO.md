@@ -12,3 +12,5 @@ Estes são os termos que foram padronizados, seja por aparecem repetidas vezes e
 | HP | HP | Sigla não traduzida por já ser padronizada em todos os jogos. |
 | TP | PT | Pontos de Tensão, traduzidos por ser uma estatística exclusiva do jogo. |
 | Black Shard | Lasca Negra | Algumas vezes escrito sem espaço para economizar espaço em situações com limite baixo de caracteres, poderíamos utilizar "fragmento negro" e outras variantes parecidas, mas ficaria muito grande. |
+| Dark Candy | Doce Sombrio | Nem tudo que possui 'Dark' precisa ser exclusivamente traduzido para 'Trevas', e nesse contexto, 'Sombrio' mantém o clima. |
+| Glowshard | Lasca Reluzente | — |
