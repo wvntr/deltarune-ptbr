@@ -42,11 +42,19 @@ jobs:
                     const origData = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
                     const tranData = fs.existsSync(destPath) ? JSON.parse(fs.readFileSync(destPath, 'utf8')) : {};
                     
-                    for (const [key, origText] of Object.entries(origData)) {
-                      totalLinhas++;
-                      const tranText = tranData[key];
-                      if (tranText && tranText !== origText) {
-                        traduzidas++;
+                    const origStrings = origData.Strings || [];
+                    const tranStrings = tranData.Strings || [];
+                    
+                    for (let i = 0; i < origStrings.length; i++) {
+                      const origText = origStrings[i];
+                      const tranText = tranStrings[i];
+                      
+                      // Ignora strings vazias ou nulas
+                      if (origText && origText.trim() !== '') {
+                        totalLinhas++;
+                        if (tranText && tranText !== origText) {
+                          traduzidas++;
+                        }
                       }
                     }
                   } catch (e) {
