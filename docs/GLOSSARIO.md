@@ -1,6 +1,6 @@
 # Glossário
 
-Estes são os termos que foram padronizados, seja por aparecerem repetidas vezes e serem muito comuns ou por precisarem ser mais curtos por razões específicas.
+Estes são os termos que foram padronizados, seja por aparecerem repetidas vezes e serem muito comuns ou por precisarem ser mais curtos por razões específicas, mas também há uma lista da tradução de cada inimigo, NPC, lugar, etc... Para melhor compreensão durante o jogo.
 
 ### Lugares
 | Original | Tradução | Informação |
