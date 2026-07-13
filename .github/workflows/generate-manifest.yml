@@ -1,4 +1,4 @@
-name: Gerar Manifesto após uma Update
+name: Gerar Manifest após uma Update
 
 on:
   push:
@@ -14,8 +14,8 @@ jobs:
 
     - name: Hash-Calc
       run: |
-        echo "{" > manifesto.json
-        echo "  \"arquivos\": [" >> manifesto.json
+        echo "{" > manifest.json
+        echo "  \"files\": [" >> manifest.json
         
         FIRST=true
         
@@ -28,16 +28,16 @@ jobs:
           if [ "$FIRST" = true ]; then
             FIRST=false
           else
-            echo "," >> manifesto.json
+            echo "," >> manifest.json
           fi
           
           # path e hash inseridos no JSON
-          echo "    { \"caminho\": \"$arquivo\", \"hash_esperado\": \"$HASH\" }" | tr -d '\n' >> manifesto.json
+          echo "    { \"path\": \"$arquivo\", \"hash\": \"$HASH\" }" | tr -d '\n' >> manifest.json
         done < <(find translated -type f)
         
-        echo "" >> manifesto.json
-        echo "  ]" >> manifesto.json
-        echo "}" >> manifesto.json
+        echo "" >> manifest.json
+        echo "  ]" >> manifest.json
+        echo "}" >> manifest.json
 
     - name: Commit e Push do JSON
       run: |
@@ -45,5 +45,5 @@ jobs:
         git config --global user.email "action@github.com"
         
         # so dá commit se tiver mudado algo
-        git add manifesto.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Atualizado manifesto.json com novos hashes" && git push)
+        git add manifest.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Atualizado 'manifest.json' com novas hashes após update." && git push)
