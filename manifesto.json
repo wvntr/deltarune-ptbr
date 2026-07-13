@@ -1,6 +1,0 @@
-{
-  "arquivos": [
-    { "caminho": "translated/chapter-05/strings.json", "hash_esperado": "372274ef69c5b9b2577df3bbeb942c1a" },
-    { "caminho": "translated/menu/strings.json", "hash_esperado": "247752c0a69d4ca2af2411a8ca104305" }
-  ]
-}
