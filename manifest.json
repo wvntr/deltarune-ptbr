@@ -1,0 +1,8 @@
+{
+  "files": [
+    { "path": "translated/chapter-05/strings.json", "hash": "372274ef69c5b9b2577df3bbeb942c1a" },
+    { "path": "translated/chapter-01/data-debug.win", "hash": "e3c32db3bdea605ffd56302214a7b1a9" },
+    { "path": "translated/chapter-01/lang/lang_en.json", "hash": "d299f124bdc77912ff3143e3b0143572" },
+    { "path": "translated/menu/strings.json", "hash": "247752c0a69d4ca2af2411a8ca104305" }
+  ]
+}

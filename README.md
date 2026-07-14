@@ -1,65 +1,119 @@
 <div align="center">
-  <h1>DELTARUNE — PT-BR</h1>
-  <p>Uma tradução não oficial para o português brasileiro do jogo <a href="https://deltarune.com/"><b>DELTARUNE</b></a>, de Toby Fox.<br>
+
+# DELTARUNE — PT-BR, por Deltarune Brasil
+
+**Uma tradução não oficial para o português brasileiro do jogo [DELTARUNE](https://deltarune.com/), de Toby Fox.**
+
+[![Progresso Geral](https://img.shields.io/badge/progresso_geral-3.85%25-orange)](#-progresso)
+[![Discord](https://img.shields.io/badge/Discord-Deltarune_Brasil-5865F2?logo=discord&logoColor=white)](https://discord.gg/jh4r47Hdnn)
+[![Licença](https://img.shields.io/badge/uso-não_comercial-blue)](#%EF%B8%8F-aviso-legal)
+
 </div>
 
 ---
 
-## 🔍 Progresso
-O progresso abaixo é atualizado conforme o conteúdo é traduzido, revisado e aprovado.
+## 🔍 Índice
+
+- [Sobre o projeto](#sobre-o-projeto)
+- [Progresso](#-progresso)
+- [Como funciona a nossa tradução](#-como-funciona-a-nossa-tradução)
+- [Glossário](#-glossário)
+- [Encontrou um erro?](#-encontrou-um-erro)
+- [Como contribuir](#-como-contribuir)
+- [Equipe](#-equipe)
+- [Aviso legal](#%EF%B8%8F-aviso-legal)
+
+---
+
+## Sobre o projeto
+
+Nosso projeto tem como objetivo oferecer uma localização completa de DELTARUNE para o português brasileiro, mantendo a personalidade de cada personagem, mantendo a essência do jogo e o humor clássico do Toby Fox.
+
+O projeto é mantido por uma equipe de voluntários e está em desenvolvimento. Você pode ver nosso progresso abaixo ou entre no [Discord](https://discord.gg/jh4r47Hdnn) para ficar por dentro de tudo, ou quem sabe só conversar, somos uma comunidade também!
+
+---
+
+## 📶 Progresso
+
+O progresso é atualizado conforme o conteúdo é traduzido, revisado e aprovado.
 
 | Capítulo   | Progresso |
-| ---------- | :----: |
-| Capítulo 1 |   18.24%   |
-| Capítulo 2 |   0%   |
-| Capítulo 3 |   0%   |
-| Capítulo 4 |   0%   |
-| Capítulo 5 |   0%   |
+| :--------- | :-------: |
+| Capítulo 1 |  18.24%   |
+| Capítulo 2 |    0%     |
+| Capítulo 3 |    0%     |
+| Capítulo 4 |    0%     |
+| Capítulo 5 |    1%     |
 
-> Note que: este projeto é desenvolvido por uma pequena equipe de voluntários. Como DELTARUNE possui uma **grande** quantidade de conteúdo, as atualizações podem levar algum tempo, porém, reforçamos que buscamos entregar nossas traduções com capricho e dedicação.
-
----
-
-## 📝 Sobre nossa tradução
-
-Nosso objetivo é oferecer uma localização consistente e fiel à identidade do DELTARUNE, priorizando muito manter a personalidade dos personagens e o estilo clássico do Toby Fox. 
-Sempre que for necessário, faremos algumas adaptações para que os diálogos, piadas e referências soem mais naturais em português, mas sem perder a intenção do texto original. 
-Também usamos um [Glossário](https://github.com/wvntr/deltarune-ptbr/blob/main/docs/GLOSSARIO.md) e revisamos continuamente a tradução, corrigindo erros e refinando o texto conforme o desenvolvimento avança, você pode ver mais sobre isso no próximo tópico abaixo.
+> Este projeto é desenvolvido por uma pequena equipe de voluntários. Como o jogo possui uma **grande** quantidade de conteúdo, as atualizações podem levar tempo.
 
 ---
 
-## ❗ Encontrei um erro na tradução, e agora?
+## 📝 Como funciona a nossa tradução
 
-A gente sente muito por isso ter te incomodado, de verdade, independente se for um crash, erro de tradução, pronome, bug ou qualquer outra coisa, você pode reportar esse erro abrindo uma [Issue](https://github.com/wvntr/deltarune-ptbr/issues/new) e descrevendo em detalhes o que aconteceu e nós corrigiremos o problema com todo prazer!
-Caso não queira fazer isso, está tudo bem! Você pode entrar no nosso [Discord](https://discord.gg/jh4r47Hdnn) e reportar por lá mesmo!
+Nosso objetivo é entregar uma localização consistente e o mais natural possível, por isso, nós priorizamos **muito** a adaptação de piadas, diálogo e outras partes do jogo quando necessário, mantemos a personalidade dos personagens igual a original e traduzimos diálogos utilizando palavras que normalmente seriam ditas de maneira natural e que condizem com a personalidade do personagem que fala.
 
-Independente do resultado do seu reporte, nós agradecemos muito pela sua atenção e por dedicar um tempinho para isso! ❤️
+Também utilizamos um [Glossário](docs/GLOSSARIO.md) para padronizar a maioria dos termos e não utilizarmos sinônimos/palavras diferentes que possam confundir você, revisamos continuamente as traduções, corrigindo erros e refinando o texto onde necessário conforme o projeto avança.
 
-> Caso o erro esteja relacionado aos **pronomes usados para Kris**, tenha em mente que o personagem **não possui gênero definido originalmente** e nós preservamos essa característica na tradução **sempre**. Caso encontre uma atribuição de gênero incorreta, reporte imediatamente.
----
-
-## 📖 [Glossário](https://github.com/wvntr/deltarune-ptbr/blob/main/docs/GLOSSARIO.md)
-
-Para manter a tradução consistente do início ao fim, utilizamos um pequeno glossário com os principais termos usados no projeto.
-
-Nele, documentamos as traduções de personagens, itens, locais, mecânicas e outras decisões de localização adotadas pela nossa equipe. 
-Esse documento é atualizado continuamente conforme o desenvolvimento da tradução avança.
+> **Sobre os pronomes de Kris:** o personagem não possui gênero definido originalmente, e essa característica é preservada em toda a nossa tradução. Encontrou uma atribuição de gênero incorreta? [Reporte imediatamente](https://github.com/wvntr/deltarune-ptbr/issues/new).
 
 ---
 
-## 👥 Quer contribuir?
+## 📖 Glossário
 
-Contribuições são muitíssimo bem-vindas!
-Caso queira contribuir com o projeto de alguma forma (vozes, revisão, tradução), você pode entrar em nosso [Discord](https://discord.gg/jh4r47Hdnn), mais informações serão dadas lá.
+Para manter a tradução consistente do início ao fim, temos um [Glossário](docs/GLOSSARIO.md) com os principais termos do projeto, como nomes de personagens, itens, locais, mecânicas e outras decisões de localização adotadas pela equipe (isso nos ajuda a não utilizar sinônimos de certa palavra e variar entre si ao decorrer do processo de tradução, evitando que você se confunda).
 
-Ficaremos muito felizes em ter você na nossa equipe e contribuindo com esse projeto gigantesco! ❤️
+O glossário é atualizado com frequência conforme o desenvolvimento avança, então vale a pena consultá-lo sempre que tiver dúvidas.
 
 ---
 
-## ⚠️ Aviso
+## ❗ Encontrou um erro?
 
-DELTARUNE é propriedade de Toby Fox.
+Nós sentimos muito mesmo por isso!
+Seja um crash, erro de tradução, problema de pronome ou qualquer outro bug, você pode nos avisar de duas formas:
 
-Este projeto é independente, sem fins lucrativos e criado exclusivamente para disponibilizar uma localização em português brasileiro para dar experiência mais confortável aos jogadores que preferem jogar em seu idioma nativo.
+- Abrindo uma [Issue no GitHub](https://github.com/wvntr/deltarune-ptbr/issues/new), descrevendo em detalhes o que aconteceu; ou
+- Reportando diretamente no nosso [Discord](https://discord.gg/jh4r47Hdnn).
+
+Qualquer que seja a forma escolhida, agradecemos muito por dedicar um tempo para nos ajudar a melhorar o projeto. ❤️
+
+---
+
+## 👥 Como contribuir
+
+Contribuições são muitíssimo bem-vindas! Se você quiser ajudar com tradução, revisão ou dublagem/vozes, basta seguir estes passos:
+
+1. Entre no nosso [Discord](https://discord.gg/jh4r47Hdnn) e converse com a equipe.
+2. Você receberá um trecho específico do capítulo para traduzir.
+3. Sua tradução passa por revisão da equipe antes de ser incorporada ao projeto.
+
+O fluxo técnico completo (branches, commits e Pull Requests) será explicado em detalhes para os colaboradores dentro do próprio Discord. Ficaremos muito felizes em ter você no time, de verdade! ❤️
+
+---
+
+## 🛠️ Equipe
+
+Agradecimentos especiais a cada um que ajudou a tornar este projeto possível!
+
+| Função         | Colaboradores |
+| :------------- | :------------ |
+| Coordenação    | [wvntr](https://github.com/wvntr) |
+| Tradução       | KazzyTTV, wvntr, MattViperAU |
+| Revisão        | Batotaskk |
+| Testers        | wvntr, Batotaskk, KazzyTTV, MattViperAU, UnderStaleHe |
+
+---
+
+## ⚠️ Aviso legal
+
+DELTARUNE é propriedade de **Toby Fox**.
+
+Este projeto é independente, não oficial e sem fins lucrativos, criado exclusivamente para oferecer uma localização em português brasileiro a jogadores que preferem jogar em seu idioma nativo.
 
 Nenhum arquivo executável do jogo é distribuído por este repositório.
+
+---
+
+<div align="center">
+  <sub>Feito com ❤️ pela comunidade <b>Deltarune Brasil</b></sub>
+</div>
