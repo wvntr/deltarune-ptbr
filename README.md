@@ -27,9 +27,9 @@
 
 ## Sobre o projeto
 
-O **Deltarune PT-BR** é um projeto independente e sem fins lucrativos que tem como objetivo oferecer uma localização completa e cuidadosa de DELTARUNE para o português brasileiro, mantendo a identidade, o humor e a personalidade original da obra de Toby Fox.
+Nosso projeto tem como objetivo oferecer uma localização completa de DELTARUNE para o português brasileiro, mantendo a personalidade de cada personagem, mantendo a essência do jogo e o humor clássico do Toby Fox.
 
-O projeto é mantido por uma equipe de voluntários e está em desenvolvimento ativo. Acompanhe nosso progresso abaixo ou entre no [Discord](https://discord.gg/jh4r47Hdnn) para novidades em tempo real.
+O projeto é mantido por uma equipe de voluntários e está em desenvolvimento. Você pode ver nosso progresso abaixo ou entre no [Discord](https://discord.gg/jh4r47Hdnn) para ficar por dentro de tudo, ou quem sabe só conversar, somos uma comunidade também!
 
 ---
 
