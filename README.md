@@ -14,7 +14,7 @@ O progresso abaixo é atualizado conforme o conteúdo é traduzido, revisado e a
 | Capítulo 2 |   0%   |
 | Capítulo 3 |   0%   |
 | Capítulo 4 |   0%   |
-| Capítulo 5 |   40%   |
+| Capítulo 5 |   ~25%   |
 
 > Note que: este projeto é desenvolvido por uma pequena equipe de voluntários. Como DELTARUNE possui uma **grande** quantidade de conteúdo, as atualizações podem levar algum tempo, porém, reforçamos que buscamos entregar nossas traduções com capricho e dedicação.
 
