@@ -49,16 +49,15 @@ jobs:
           for cap in caps:
               pt = carregar(cap / 'lang_pt.json')
               en = carregar(cap / 'original' / 'lang_en.json')
-              ja = carregar(cap / 'original' / 'lang_ja.json')
 
-              chaves = {k for k in set(pt) | set(en) | set(ja) if k not in METADATA}
+              chaves = {k for k in set(pt) | set(en) if k not in METADATA}
               trad = 0
               for k in chaves:
                   if k not in pt:
                       continue  # se faltar a respectiva key no lang_pt, dá como não traduzido
                   v = pt[k]
-                  # se for igual ao lang_en/lang_ja, não está traduzido
-                  if v == en.get(k) or v == ja.get(k):
+                  # se for igual ao lang_en, não está traduzido
+                  if v == en.get(k):
                       continue
                   trad += 1
 
