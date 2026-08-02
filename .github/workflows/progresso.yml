@@ -1,0 +1,112 @@
+name: Progresso da Tradução
+
+on:
+  push:
+    branches:
+      - main
+      - main-dev
+      - dev
+  schedule:
+    # roda diariamente às 12:00 UTC como update de segurança, sim, precisa...
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  progresso:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Calcular progresso e atualizar README
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          # metadata
+          METADATA = {'date'}
+          RAIZ = Path('.')
+
+          def carregar(p):
+              try:
+                  return json.loads(Path(p).read_text(encoding='utf-8'))
+              except FileNotFoundError:
+                  return {}
+
+          # calcula o progresso de cada chapter*_windows
+          resultados = {}
+          caps = sorted(RAIZ.glob('chapter*_windows'))
+          for cap in caps:
+              pt = carregar(cap / 'lang_pt.json')
+              en = carregar(cap / 'original' / 'lang_en.json')
+              ja = carregar(cap / 'original' / 'lang_ja.json')
+
+              chaves = {k for k in set(pt) | set(en) | set(ja) if k not in METADATA}
+              trad = 0
+              for k in chaves:
+                  if k not in pt:
+                      continue  # se faltar a respectiva key no lang_pt, dá como não traduzido
+                  v = pt[k]
+                  # se for igual ao lang_en/lang_ja, não está traduzido
+                  if v == en.get(k) or v == ja.get(k):
+                      continue
+                  trad += 1
+
+              m = re.fullmatch(r'chapter(\d+)_windows', cap.name)
+              if m:
+                  resultados[int(m.group(1))] = (trad, len(chaves))
+
+          if not resultados:
+              print('Nenhuma pasta chapter*_windows encontrada.')
+              exit(1)
+
+          for num, (trad, total) in sorted(resultados.items()):
+              print(f'Capítulo {num}: {trad}/{total} = {trad/total*100:.2f}%')
+
+          # atualiza a tabela de progresso do README.md
+          readme = Path('README.md')
+          texto = readme.read_text(encoding='utf-8')
+
+          def atualiza_linha(m):
+              num = int(m.group(1))
+              if num not in resultados:
+                  return m.group(0)  # manter como está se o cap não tiver pasta (temporário enquanto não traduzimos eles)
+              trad, total = resultados[num]
+              pct = trad / total * 100
+              return f'| Capítulo {num} |  {pct:.2f}%   |'
+
+          novo = re.sub(
+              r'^\|\s*Cap[ií]tulo\s+(\d+)\s*\|.*\|',
+              atualiza_linha,
+              texto,
+              flags=re.M,
+          )
+
+          if novo != texto:
+              readme.write_text(novo, encoding='utf-8')
+              print('README.md atualizado.')
+          else:
+              print('README.md sem alterações.')
+          PY
+
+      - name: Commit e push do README atualizado
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualizado progresso da tradução no README"
+            git push
+          else
+            echo "Nenhuma alteração para commitar."
+          fi
