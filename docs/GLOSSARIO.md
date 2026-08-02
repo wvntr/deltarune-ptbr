@@ -12,7 +12,7 @@ Estes são os termos que foram padronizados, seja por aparecerem repetidas vezes
 ### Habitantes
 | Original | Tradução | Informação |
 |---|---|---|
-| Darkners | Trevanos | — |
+| Darkners | Trevianos | — |
 | Lightners | Luzianos | — |
 
 ### Inimigos
@@ -39,12 +39,36 @@ Estes são os termos que foram padronizados, seja por aparecerem repetidas vezes
 | — | — | — |
 
 ### Atributos / Sistemas
-| Original | Tradução | Informação |
+| Original | Tradução | Nota |
 |---|---|---|
 | HP | HP | Sigla não traduzida por já ser padronizada em todos os jogos. |
-| TP | PT | Pontos de Tensão, traduzidos por ser uma mecânica exclusiva do DELTARUNE. |
+| TP | PA | Pontos de Adrenalina, traduzido por ser uma mecânica exclusiva do DELTARUNE. |
 
 ### Itens
-| Original | Tradução | Informação |
+| Original | Tradução | Nota |
 |---|---|---|
 | Black Shard | Lasca Negra | Algumas vezes pode ser escrito sem espaçamento para economizar espaço em situações com limite baixo de caracteres. |
+| GlowShard | Lasca Brilhante | — |
+| ReviveMint | RenasciMenta | — |
+| LightCandy | Doce da Luz | — |
+
+### Armaduras
+| Original | Tradução | Nota |
+|---|---|---|
+| NetskieHat | Chapéu de Netskie | — |
+| Waterguard | Hóstiamuleto | — |
+| DealMaker | Fecha-Acordos | — |
+| Dice Brace | Dacelete | — |
+| Amber Card | Cartão Âmbar | — |
+| (cor) Ribbon | Laço (cor) | — |
+
+### Armas
+| Original | Tradução | Nota |
+|---|---|---|
+| CactusNeedle | Espinho de Cacto | — |
+| QuillPen | Pena | — |
+| HolidayPencil | Lápis Festivo | — |
+| WoodBlade | Lâmina de Madeira | — |
+| FloweryScarf | Cachecol Flowery | — |
+
+

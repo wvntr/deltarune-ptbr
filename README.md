@@ -40,10 +40,10 @@ Nosso projeto visa traduzir o jogo para o português brasileiro **E** adaptar a 
 
 Existem diversas formas de "traduzir" um jogo. A mais rápida é pegar as falas/palavras em inglês, jogar no tradutor ou reescrever por cima, mas o problema são as frases que ninguém falaria daquele jeito, piadas que não fazem sentido fora do idioma original e na maioria dos casos, interfaces inconsistentes.
 
-Enquanto alguns outros projetos continuam fazendo isso, nós **implementamos o português como um idioma novo**, ou seja, não tocamos no idioma original e nem no Japonês. Além disso, muitas outras equipes esquecem do essencial (personalidade de cada um, adaptações, levar a tradução ao pé da letra, etc), portanto, permanecemos um tempo elaborando uma maneira que faça parecer algo que realmente tenha saído do Toby Fox e que se adeque 100% ao nosso idioma, as adaptaçõese são:
+Enquanto alguns outros projetos continuam fazendo isso, nós **implementamos o português como um idioma novo**, ou seja, não tocamos no idioma original e nem no Japonês. Além disso, muitas outras equipes esquecem do essencial (personalidade de cada um, adaptações, levar a tradução ao pé da letra, etc), portanto, permanecemos um tempo elaborando uma maneira que faça parecer algo que realmente tenha saído do Toby Fox e que se adeque 100% ao nosso idioma, as adaptações são:
 
 - **Personalidades:** Esse é o ponto em que priorizamos ao máximo. Adaptaremos gírias, forma de falar, tom, nível de formalidade, etc., baseando-se apenas nas falas originais, afinal, cada um permanece com sua respectiva personalidade.
-- **Interface:** A interface foi totalmente adaptada caso sua seleção de idioma seja o português, com proporções **exatas** para comportar o tamanho dos textos, como a interface de armaduras, poder, itens, etc.
+- **Interface:** A interface foi totalmente adaptada caso sua seleção de idioma seja o português, com proporções **adaptadas** para comportar o tamanho dos textos, como a interface de armaduras, poder, itens, etc.
 - **Nomes Compactos:** Sabemos que muitas pessoas sofreram ao tentar entender o que significa tal item por conta do nome estar abreviado/compactado, como "Waferguard" ou "PrincessRBN", então quebramos um pouco a cabeça e decidimos seguir a mesma abordagem que a versão japonesa usa: juntamente da adaptação da interface, **todos os nomes de itens, armaduras e outras coisas terão seus nomes completos com espaçamento**.
 - **Piadas/Trocadilhos:** Trocadilhos que só funcionam em inglês são reescritos para funcionar em português, mas ainda tentando manter ao máximo a intenção da cena mesmo quando a palavra muda.
 - **Pronomes:** Assim como na versão original, essa é uma escolha de design do próprio Toby Fox que fazemos questão de preservar. Viu alguma atribuição de gênero errada em algum trecho? [Nos avise](https://github.com/wvntr/deltarune-ptbr/issues/new), é tratado como um erro grave e nós faremos questão de corrigir.
@@ -66,7 +66,7 @@ O progresso é atualizado automaticamente toda vez que fazemos qualquer alteraç
 | Capítulo 4 |    0%     |
 | Capítulo 5 |  12.69%   |
 
-Deltarune tem um conteúdo MASSIVO e somos pouquíssimos. Preferimos avançar devagar e revisar bem do que soltar um capítulo cheio de erros, então vale a pena lembrar que, mesmo que o progresso seja lento e demore para darmos alguma atualização sobre o projeto, essa lentidão se deve ao esforço para entregar algo o mais próximo possível do que seria algo "oficial" e correspondesse à uma possível visão do Toby Fox. ([Mesmo que o Toby explicitamente já tenha dito que não vai adicionar outras línguas ao jogo](https://bsky.app/profile/tobyfox.undertale.com/post/3mia4smxehk2a))
+Deltarune tem um conteúdo MASSIVO e somos pouquíssimos. Preferimos avançar devagar e revisar bem do que soltar um capítulo cheio de erros, então vale a pena lembrar que, mesmo que o progresso seja lento e demore para darmos alguma atualização sobre o projeto, essa lentidão se deve ao esforço para entregar algo o mais próximo possível do que seria algo "oficial" e correspondesse à uma possível visão do Toby Fox. ([Mesmo que o Toby explicitamente já tenha dito que não conseguiria adicionar outras línguas](https://bsky.app/profile/tobyfox.undertale.com/post/3mia4smxehk2a))
 
 ---
 
