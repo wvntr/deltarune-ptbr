@@ -64,7 +64,7 @@ O progresso é atualizado automaticamente toda vez que fazemos qualquer alteraç
 | Capítulo 2 |    0%     |
 | Capítulo 3 |    0%     |
 | Capítulo 4 |    0%     |
-| Capítulo 5 |  12.69%   |
+| Capítulo 5 |  86.21%   |
 
 Deltarune tem um conteúdo MASSIVO e somos pouquíssimos. Preferimos avançar devagar e revisar bem do que soltar um capítulo cheio de erros, então vale a pena lembrar que, mesmo que o progresso seja lento e demore para darmos alguma atualização sobre o projeto, essa lentidão se deve ao esforço para entregar algo o mais próximo possível do que seria algo "oficial" e correspondesse à uma possível visão do Toby Fox. ([Mesmo que o Toby explicitamente já tenha dito que não conseguiria adicionar outras línguas](https://bsky.app/profile/tobyfox.undertale.com/post/3mia4smxehk2a))
 
