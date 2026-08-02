@@ -1,6 +1,6 @@
 <div align="center">
 
-# DELTARUNE — PT-BR
+# DELTARUNE — Versão PT-BR
 
 ### Tradução para Português Brasileiro por Deltarune Brasil
 
@@ -14,7 +14,7 @@ Uma localização não oficial de [DELTARUNE](https://deltarune.com/), de Toby F
 
 ---
 
-## Índice
+## 🪢 Índice
 
 - [Sobre o projeto](#sobre-o-projeto)
 - [O que nos diferencia](#o-que-nos-diferencia)
@@ -27,7 +27,7 @@ Uma localização não oficial de [DELTARUNE](https://deltarune.com/), de Toby F
 
 ---
 
-## Sobre o projeto
+## 🔹​ Sobre o projeto
 
 Nosso projeto visa traduzir o jogo para o português brasileiro **E** adaptar a estrutura do jogo para fazer o português ser uma terceira opção de idioma no jogo, o Inglês e o Japonês permanecerão intocados (ou seja, não vamos simplesmente escrever por cima dos diálogos em inglês) e com a adição do português. **Todas** as interfaces, menus e afins serão adaptados para se adequar ao idioma em questão de espaçamento e outras propriedades.
 
@@ -36,7 +36,7 @@ Nosso projeto visa traduzir o jogo para o português brasileiro **E** adaptar a 
 
 ---
 
-## O que nos diferencia
+## ❓ O que nos diferencia
 
 Existem diversas formas de "traduzir" um jogo. A mais rápida é pegar as falas/palavras em inglês, jogar no tradutor ou reescrever por cima, mas o problema são as frases que ninguém falaria daquele jeito, piadas que não fazem sentido fora do idioma original e na maioria dos casos, interfaces inconsistentes.
 
@@ -54,7 +54,7 @@ No fim, nosso objetivo é fazer você jogar sem lembrar que é uma tradução.
 
 ---
 
-## Progresso
+## ⌛ Progresso
 
 O progresso é atualizado automaticamente toda vez que fazemos qualquer alteração no repositório.
 
@@ -70,7 +70,7 @@ Deltarune tem um conteúdo MASSIVO e somos pouquíssimos. Preferimos avançar de
 
 ---
 
-## Glossário
+## 📍 Glossário
 
 Pra manter consistência do capítulo 1 ao capítulo 5, mantemos um [Glossário](docs/GLOSSARIO.md) com nomes de personagens, itens, locais, mecânicas e decisões de tradução que a equipe já bateu o martelo. Isso evita, por exemplo, um item ser chamado de um jeito numa cena e de outro jeito em outro momento no jogo.
 
@@ -78,7 +78,7 @@ Vale a pena dar uma olhada nele se você tiver curiosidade sobre alguma escolha 
 
 ---
 
-## Encontrou um erro?
+## 💔 Encontrou um erro?
 
 Pedimos mil desculpas por isso, traduzir Deltarune é MUITO complexo e às vezes podemos deixar algo passar sem querer, e esperamos que compreenda, se não, está tudo bem mesmo assim! Você pode sempre reportar os erros que encontrar, somos todo ouvidos! Seja um crash, erro de tradução, pronome errado, texto cortando na tela, você pode sempre reportar tal problema para a equipe de alguma das maneiras abaixo.
 
@@ -91,7 +91,7 @@ Agradecemos muito por tirar um tempo pra nos ajudar a deixar isso melhor! <3
 
 ---
 
-## Como contribuir
+## 🎯 Como contribuir
 
 Se você também gosta do jogo e tem ideias, habilidade em tradução, arte e/ou Voice Acting, ficaríamos muito felizes em ter VOCÊ em nossa equipe, se você quiser fazer parte, basta fazer o seguinte:
 
@@ -103,7 +103,7 @@ A parte técnica, como branches, commits, Pull Requests, é explicado com calma 
 
 ---
 
-## Equipe
+## 🔧 Equipe
 
 | Função      | Colaboradores |
 | :---------- | :------------ |
@@ -114,7 +114,7 @@ A parte técnica, como branches, commits, Pull Requests, é explicado com calma 
 
 ---
 
-## Aviso legal
+## ⚠️ Aviso legal
 
 DELTARUNE é propriedade de **Toby Fox**.
 
