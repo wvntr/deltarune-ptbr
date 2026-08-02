@@ -108,9 +108,9 @@ A parte técnica, como branches, commits, Pull Requests, é explicado com calma 
 | Função      | Colaboradores |
 | :---------- | :------------ |
 | Coordenação | [winteryx](https://github.com/wvntr) |
-| Tradução    | winteryx, MattViperAU |
-| Revisão     | Batotaskk |
-| Testers     | winteryx, Batotaskk, KazzyTTV, MattViperAU, UnderStaleHe |
+| Tradução    | winteryx |
+| Revisão     | Batotaskk, MattViperAU |
+| Testers     | Batotaskk, KazzyTTV, MattViperAU, UnderStaleHe |
 
 ---
 
@@ -123,5 +123,5 @@ Este é um projeto independente, não oficial e sem fins lucrativos, feito exclu
 ---
 
 <div align="center">
-  <sub>Feito com **determinação** por pessoas que amam Deltarune, para quem também ama | Comunidade Deltarune Brasil</sub>
+  <sub>Feito por ALMAs determinadas, para ALMAs determinadas — Comunidade Deltarune Brasil</sub>
 </div>
