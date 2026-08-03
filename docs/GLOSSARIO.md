@@ -1,74 +1,257 @@
 # Glossário
 
-Estes são os termos que foram padronizados, seja por aparecerem repetidas vezes e serem muito comuns ou por precisarem ser mais curtos por razões específicas, mas também há uma lista da tradução de cada inimigo, NPC, lugar, etc... Para melhor compreensão durante o jogo.
+Estes são os termos que foram padronizados, seja por aparecerem repetidas vezes e serem muito comuns ou por precisarem de adaptações específicas. Você pode conferir aqui a tradução de cada inimigo, NPC, lugar, item e outras decisões de localização da equipe.
+
+---
+
+## 🌍 Global
+
+Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 ### Lugares
-| Original | Tradução | Informação |
+
+| Original | Tradução | Status |
 |---|---|---|
-| Dark World | Mundo das Trevas | — |
-| Light World | Mundo da Luz | — |
-| Castle Town | Cidade Castelo | — |
+| Dark World | Mundo das Trevas | ✅ |
+| Light World | Mundo da Luz | ✅ |
+| Castle Town | Cidade Castelo | ✅ |
 
 ### Habitantes
-| Original | Tradução | Informação |
+
+| Original | Tradução | Status |
 |---|---|---|
-| Darkners | Trevianos | — |
-| Lightners | Luzianos | — |
+| Darkners | Trevianos | ✅ |
+| Lightners | Luzianos | ✅ |
+
+### Atributos / Sistemas
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| HP | HP | — | Não traduzido por já ser padronizada em todos os jogos. |
+| TP | PA | ✅ | Pontos de Adrenalina, traduzido por ser uma mecânica exclusiva do DELTARUNE. |
+
+---
+
+## 📖 Capítulo 1
 
 ### Inimigos
-| Original | Tradução | Informação |
-|---|---|---|
-| C. Round | C. Redondo | — |
-| Bloxer | Bloxeador | — |
-| Clover | Em discussão | — |
-| Rudinn | Em discussão | — |
-| Rudinn Rangers | Em discussão | — |
-| Ponman | Em discussão | — |
-| Rabbick | Em discussão | — |
-| Jigwary | Em discussão | — |
-| Jigsaw Joe | Em discussão | — |
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| C. Round | C. Redondo | ✅ | — |
+| Bloxer | Bloxeador | ✅ | — |
+| Clover | — | ⏳ | — |
+| Rudinn | — | ⏳ | — |
+| Rudinn Rangers | — | ⏳ | — |
+| Ponman | — | ⏳ | — |
+| Rabbick | — | ⏳ | — |
+| Head Hathys | — | ⏳ | — |
+| Hathy | — | ⏳ | — |
+| Jigwary | — | ⏳ | — |
+| Jigsaw Joe | — | ⏳ | — |
 
 ### Bosses
-| Original | Tradução | Informação |
-|---|---|---|
-| Roaring Knight | Cavaleiro Rugente | — |
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| King | Rei | ✅ | — |
+| Roaring Knight | Cavaleiro Rugente | ✅ | — |
+| Jevil | — | Não é necessária tradução. |
 
 ### NPCs
-| Original | Tradução | Informação |
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| Top Chef | Chef Pião | ✅ | — |
+
+### Itens
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| GlowShard | Lasca Brilhante | ✅ | — |
+| ReviveMint | RenasciMenta | ✅ | — |
+
+### Armaduras
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| Dice Brace | Dacelete | ✅ | — |
+| Amber Card | Cartão Âmbar | ✅ | — |
+| IronShackle | Algema de Ferro | ✅ | — |
+| (cor) Ribbon | Laço (cor) | ✅ | — |
+
+### Armas
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| WoodBlade | Lâmina de Madeira | ✅ | — |
+
+---
+
+## 📖 Capítulo 2
+
+### Inimigos
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Bosses
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| Queen | Rainha | ✅ | — |
+| Spamton | — | — | Tradução não necessária. |
+
+### NPCs
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Itens
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Armaduras
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| DealMaker | Fecha-Acordos | ✅ | — |
+| Mannequin | Manequim | ✅ | — |
+
+### Armas
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+---
+
+## 📖 Capítulo 3
+
+### Inimigos
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Bosses
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — |
+
+### NPCs
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Itens
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Armaduras
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Armas
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| CactusNeedle | Espinho de Cacto | ✅ | — |
+
+---
+
+## 📖 Capítulo 4
+
+### Inimigos
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Bosses
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — |
+
+### NPCs
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Itens
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| — | — | — | — |
+
+### Armaduras
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| Waferguard | Hóstiamuleto | ✅ | — |
+
+### Armas
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| QuillPen | Pena de Escrever | ✅ | — |
+| HolidayPencil | Lápis Festivo | ✅ | — |
+
+---
+
+## 📖 Capítulo 5
+
+### Inimigos
+
+| Original | Tradução | Status | Nota |
 |---|---|---|
 | — | — | — |
 
-### Atributos / Sistemas
-| Original | Tradução | Nota |
+### Bosses
+
+| Original | Tradução | Status | Nota |
 |---|---|---|
-| HP | HP | Sigla não traduzida por já ser padronizada em todos os jogos. |
-| TP | PA | Pontos de Adrenalina, traduzido por ser uma mecânica exclusiva do DELTARUNE. |
+| Aqua | Turquesa | ✅ | — |
+
+### NPCs
+
+| Original | Tradução | Status | Nota |
+|---|---|---|
+| — | — | — | — |
 
 ### Itens
-| Original | Tradução | Nota |
-|---|---|---|
-| Black Shard | Lasca Negra | Algumas vezes pode ser escrito sem espaçamento para economizar espaço em situações com limite baixo de caracteres. |
-| GlowShard | Lasca Brilhante | — |
-| ReviveMint | RenasciMenta | — |
-| LightCandy | Doce da Luz | — |
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| GreenTea | Chá de Verde | — | — |
 
 ### Armaduras
-| Original | Tradução | Nota |
-|---|---|---|
-| NetskieHat | Chapéu de Netskie | — |
-| Waterguard | Hóstiamuleto | — |
-| DealMaker | Fecha-Acordos | — |
-| Dice Brace | Dacelete | — |
-| Amber Card | Cartão Âmbar | — |
-| (cor) Ribbon | Laço (cor) | — |
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| NetskieHat | Chapéu de Nestkie | ✅ | — |
+| AquaKnife | Faca da Turquesa | ✅ | — |
+| BlueShoes | Sapatilhas do Azul | ✅ | — |
+| YellowHat | Chapéu do Amarelo | ✅ | — |
+| SethSpecs | Óculos de Seth | ✅ | — |
+| WoodBlade2 | Lâmina de Madeira 2 | ⚠️​ | Precisa de ajustes para caber no shop." \\| "Um nome que é desnecessariamente maior porque encaixa no contexto do Capítulo 5."|
 
 ### Armas
-| Original | Tradução | Nota |
-|---|---|---|
-| CactusNeedle | Espinho de Cacto | — |
-| QuillPen | Pena | — |
-| HolidayPencil | Lápis Festivo | — |
-| WoodBlade | Lâmina de Madeira | — |
-| FloweryScarf | Cachecol Flowery | — |
 
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| FloweryScarf | Cachecol do Flowery | ⚠️​ | Precisa de ajustes na interface para caber o nome. |
 
+---
