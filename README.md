@@ -67,7 +67,7 @@ O progresso é atualizado automaticamente a cada alteração no repositório.
 
 Deltarune tem um conteúdo extenso e nossa equipe é pequena. Preferimos avançar devagar e revisar com cuidado em vez de soltar um capítulo cheio de erros, por isso, se o progresso parecer lento, é porque estamos entregando algo o mais próximo possível de uma tradução oficial, e isso requer muita revisão.
 
-Toby Fox já mostrou sua visão (positiva) publicamente sobre fan-translations, ele só não pode validar outros idiomas oficialmente porque é fluente apenas em inglês e japonês e não conseguiria avaliar se tal tradução se adequaria à sua visão. É exatamente esse espaço que tentamos ocupar: entregar com o cuidado que ele não teria como conferir sozinho, algo à altura do que ele criou. ([fonte](https://bsky.app/profile/tobyfox.undertale.com/post/3mia4smxehk2a))
+Toby Fox já [se posicionou](https://bsky.app/profile/tobyfox.undertale.com/post/3mia4smxehk2a) de forma positiva publicamente em relação a fan-translations, ele só não pode validar outros idiomas oficialmente porque é fluente apenas em inglês e japonês e não conseguiria avaliar se tal tradução se adequaria à sua visão. É exatamente esse espaço que tentamos ocupar: entregar com o cuidado que ele não teria como conferir sozinho, algo à altura do que ele criou.
 
 ---
 
