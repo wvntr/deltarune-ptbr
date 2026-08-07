@@ -220,19 +220,19 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 ### Inimigos
 
 | Original | Tradução | Status | Nota |
-|---|---|---|
-| — | — | — |
+|---|---|---|---|
+| — | — | — | — |
 
 ### Bosses
 
 | Original | Tradução | Status | Nota |
-|---|---|---|
+|---|---|---|---|
 | Aqua | Turquesa | ✅ | — |
 
 ### NPCs
 
 | Original | Tradução | Status | Nota |
-|---|---|---|
+|---|---|---|---|
 | — | — | — | — |
 
 ### Itens
