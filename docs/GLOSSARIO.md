@@ -70,13 +70,14 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 |---|---|---|---|
 | GlowShard | Lasca Brilhante | ✅ | — |
 | ReviveMint | RenasciMenta | ✅ | — |
+| BrokenCake | Bolo Quebrado | ✅ | — |
 
 ### Armaduras
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | Dice Brace | Dacelete | ✅ | — |
-| Amber Card | Cartão Âmbar | ✅ | — |
+| Amber Card | Cartão de Âmbar | ✅ | — |
 | IronShackle | Algema de Ferro | ✅ | — |
 | (cor) Ribbon | Laço (cor) | ✅ | — |
 
@@ -121,6 +122,9 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 |---|---|---|---|
 | DealMaker | Fecha-Acordos | ✅ | — |
 | Mannequin | Manequim | ✅ | — |
+| Silver Card | Cartão de Prata | ✅ | — |
+| Silver Watch | Relógio de Prata | ✅ | — |
+
 
 ### Armas
 
