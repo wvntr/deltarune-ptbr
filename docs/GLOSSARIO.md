@@ -233,7 +233,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| — | — | — | — |
+| Ferroll | Ferrolho | ✅ | — |
 
 ### Itens
 
