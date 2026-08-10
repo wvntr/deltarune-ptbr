@@ -43,7 +43,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Clover | — | ⏳ | — |
 | Rudinn | — | ⏳ | — |
 | Rudinn Rangers | — | ⏳ | — |
-| Ponman | — | ⏳ | — |
+| Ponman | Pompeão | ✅ | — |
 | Rabbick | — | ⏳ | — |
 | Head Hathys | — | ⏳ | — |
 | Hathy | — | ⏳ | — |
