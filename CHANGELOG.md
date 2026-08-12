@@ -23,7 +23,7 @@ A data segue o nosso formato de `dia-mês-ano`, e caso **haja mais de uma mudan�
 #### [CAPÍTULO 5]
 - Parte da batalha contra um boss foi parcialmente traduzida. <em>(spoilers)</em>
 
-- Parte do código que cuida da aba EQUIP (ARMADURA) foi modificado para transformar a scale do nome de armas, armaduras e habilidades que estejam grandes demais em relação às bordas da interface, isso só se aplica caso o idioma do jogo esteja em Português.
+- Parte do código que cuida da aba EQUIP (ARMADURA) foi modificado para adaptar a escala do texto do nome de armas, armaduras e habilidades que estejam grandes demais em relação às bordas da interface, isso só se aplica caso o idioma do jogo esteja em Português.
 
 - O offset do eixo X do sprite de rolagem da página na aba foi alterado no código para em vez de 50 (padrão da versão japonesa), ser 57 (personalizado). Isso só se aplica caso o idioma do jogo esteja em Português.
 <details>
