@@ -18,10 +18,9 @@ A data segue o nosso formato de `dia-mês-ano`, e caso **haja mais de uma mudan�
 
 ---
 
-### ⚙️ `meta-12-08-2026`
+### 🔸 `minor-12-08-2026-B`
 
-- Criado o `CHANGELOG.md` do projeto.
-- Tradução parcial de uma certa batalha contra um boss. <em>(spoilers)</em>
+- Parte da batalha contra um boss foi parcialmente traduzida. <em>(spoilers)</em>
 
 <details>
 <summary>Ver spoiler</summary>
@@ -29,6 +28,10 @@ A data segue o nosso formato de `dia-mês-ano`, e caso **haja mais de uma mudan�
 Pink.
 
 </details>
+
+### ⚙️ `meta-12-08-2026`
+
+- Criado o `CHANGELOG.md` do projeto.
 
 ### 🔶 `major-11-08-2026`
 
