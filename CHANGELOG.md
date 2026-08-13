@@ -18,6 +18,59 @@ A data segue o nosso formato de `dia-mês-ano`, e caso **haja mais de uma mudan�
 
 ---
 
+## 🔶 `major-13-08-2026`
+
+#### [CAPÍTULO 5]
+- O sprite `spr_face_single_susie_alt_bushes` agora possui sua variante própria para a versão Portuguesa (`spr_face_single_susie_alt_bushes_pt`). Isto só se aplica caso o idioma atual seja o Português.
+
+- Uma **grande** quantidade de equipamentos e armas foram traduzidas. <em>(spoilers)</em>
+
+- Pequenos polimentos e correções em diálogos variados para se adaptarem ao clima de cada cena e ambiente.
+
+- Algumas mensagens do Ralsei e Susie ao equiparem armaduras/armas foram traduzidas.
+
+- As abas de Magia e Armadura foram adaptadas para caso um certo personagem esteja no grupo.
+
+<details>
+<summary>Ver spoiler</summary>
+
+#### [ARMAS/EQUIPAMENTO]
+
+- FiberScarf → Cachecol de Fibra
+- AutoAxe → Machado Automático
+- JusticeAxe → Machado da Justiça
+- ToxicAxe → Machado Tóxico
+- Gingerguard → GengiGuarda 
+- ShadowMantle → Manto das Sombras
+- MechaSaber → Sabre Mecânico
+- Jevilstail → Cauda do Jevil
+- TennaTie → GravaTenna
+- TrueTie → Gravata Verdadeira
+- B.ShotBowtie → Gravata Manda Chuva
+- FrayedBowtie → Gravata Velha
+- Winglade → Faca Turca
+- JingleBlade → Espada Natalina
+
+> Para ver tudo que foi traduzido, vá até o [glossário](https://github.com/wvntr/deltarune-ptbr/blob/dev/docs/GLOSSARIO.md)
+
+#### [ITENS]
+
+- ButJuice → MordoSuco
+- ExecBuffet → Buffet Executivo
+- DeluxeDinner → Jantar Luxuoso
+- RenasciMenta *(já traduzida, anteriormente "ReviveMint")* → Menta Revitalizante
+- Revive Dust → Pó Revitalizante
+- Revive Glow → Brilho Revitalizante
+- Darkburger → Hambúrguer Sombrio
+
+> Para ver tudo que foi traduzido, vá até o [glossário](https://github.com/wvntr/deltarune-ptbr/blob/dev/docs/GLOSSARIO.md)
+
+### [OUTRO]
+
+- As abas de Armaduras e Magia foram adaptadas para caso o Flowery esteja no grupo.
+
+</details>
+
 ## 🔸 `minor-12-08-2026-B`
 
 #### [CAPÍTULO 5]

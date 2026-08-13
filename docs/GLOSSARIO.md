@@ -32,7 +32,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 ---
 
-## 📖 Capítulo 1
+## ♠️ Capítulo 1
 
 ### Inimigos
 
@@ -40,13 +40,13 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 |---|---|---|---|
 | C. Round | C. Redondo | ✅ | — |
 | Bloxer | Bloxeador | ✅ | — |
-| Clover | — | ⏳ | — |
-| Rudinn | — | ⏳ | — |
-| Rudinn Rangers | — | ⏳ | — |
-| Ponman | Pompeão | ✅ | — |
-| Rabbick | — | ⏳ | — |
+| Clover | Trêva | ✅ | — |
+| Rudinn | Rudiano | ✅ | Esse é uma dos mais complicados de traduzir por conta do trocadilho, então decidimos fazer "Ru" (nome original, sem trocadilho), "dia" (diamante, que é do que Rudinn é feito) e "no" (final da palavra paladino).  |
+| Rudinn Ranger | Rudiano Rondador | ✅ | — |
+| Ponman | — | ⏳ | — |
+| Rabbick | Sujoelho | ✅ | — |
 | Head Hathys | — | ⏳ | — |
-| Hathy | — | ⏳ | — |
+| Hathy | Copação | ✅ | — |
 | Jigwary | — | ⏳ | — |
 | Jigsaw Joe | — | ⏳ | — |
 
@@ -86,10 +86,12 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | WoodBlade | Lâmina de Madeira | ✅ | — |
+| Jevilstail | Cauda do Jevil | ✅ | — |
+
 
 ---
 
-## 📖 Capítulo 2
+## 🖥️ Capítulo 2
 
 ### Inimigos
 
@@ -114,7 +116,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| — | — | — | — |
+| ButJuice | MordoSuco | ✅ | — |
 
 ### Armaduras
 
@@ -124,17 +126,19 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Mannequin | Manequim | ✅ | — |
 | Silver Card | Cartão de Prata | ✅ | — |
 | Silver Watch | Relógio de Prata | ✅ | — |
-
+| B.ShotBowtie | Gravata Manda Chuva | ✅ | — |
 
 ### Armas
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| — | — | — | — |
+| FiberScarf | Cachecol de Fibra | ✅ | — |
+| MechaSaber | Sabre Mecânico | ✅ | — |
+
 
 ---
 
-## 📖 Capítulo 3
+## 📺 Capítulo 3
 
 ### Inimigos
 
@@ -158,13 +162,20 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| — | — | — | — |
+| ExecBuffet | Buffet Executivo | ✅ | — |
+| DeluxeDinner | Jantar Luxuoso | ✅ | — |
+| FlatSoda | Refri Sem Gás | ✅ | — |
+
+
 
 ### Armaduras
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| — | — | — | — |
+| ShadowMantle | Manto das Sombras | ✅ | — |
+| GingerGuard | Gengiguarda | ✅ | — |
+| TennaTie | Gravata Tenna | ✅ | — |
+| LodeStone | Magnetita | ✅ | — |
 
 ### Armas
 
@@ -174,7 +185,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 ---
 
-## 📖 Capítulo 4
+## 🪓 Capítulo 4
 
 ### Inimigos
 
@@ -211,17 +222,19 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | QuillPen | Pena de Escrever | ✅ | — |
+| JusticeAxe | Machado da Justiça | ✅ | — |
 | HolidayPencil | Lápis Festivo | ✅ | — |
 
 ---
 
-## 📖 Capítulo 5
+## 🌻 Capítulo 5
 
 ### Inimigos
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| — | — | — | — |
+| Leafling | Folhinha | ✅ | — |
+| Shinobeetle | Ninjouro | ✅ | — |
 
 ### Bosses
 
@@ -239,7 +252,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| GreenTea | Chá de Verde | — | — |
+| GreenTea | Chá de Verde | ✅ | — |
 
 ### Armaduras
 
@@ -256,6 +269,6 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| FloweryScarf | Cachecol do Flowery | ⚠️​ | Precisa de ajustes na interface para caber o nome. |
+| FloweryScarf | Cachecol do Flowery | ✅​ | — |
 
 ---
