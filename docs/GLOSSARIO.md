@@ -30,6 +30,13 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | HP | HP | — | Não traduzido por já ser padronizada em todos os jogos. |
 | TP | PA | ✅ | Pontos de Adrenalina, traduzido por ser uma mecânica exclusiva do DELTARUNE. |
 
+### Armas
+
+| Original | Tradução | Status | Nota |
+|---|---|---|---|
+| Rude Buster | Golpe Brutal | — | — |
+| Scythemare | Ceifadelo | ✅ | — |
+
 ---
 
 ## ♠️ Capítulo 1
@@ -87,7 +94,6 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 |---|---|---|---|
 | WoodBlade | Lâmina de Madeira | ✅ | — |
 | Jevilstail | Cauda do Jevil | ✅ | — |
-
 
 ---
 
@@ -247,6 +253,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | Ferroll | Ferrolho | ✅ | — |
+| Hopschef | Chef Pula-Pula | ✅ | — |
 
 ### Itens
 
