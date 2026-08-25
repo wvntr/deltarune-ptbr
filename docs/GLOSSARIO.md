@@ -48,8 +48,8 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | C. Round | C. Redondo | ✅ | — |
 | Bloxer | Bloxeador | ✅ | — |
 | Clover | Trêva | ✅ | — |
-| Rudinn | Rudiano | ✅ | Esse é uma dos mais complicados de traduzir por conta do trocadilho, então decidimos fazer "Ru" (nome original, sem trocadilho), "dia" (diamante, que é do que Rudinn é feito) e "no" (final da palavra paladino).  |
-| Rudinn Ranger | Rudiano Rondador | ✅ | — |
+| Rudinn | Rudino | ✅ | — |
+| Rudinn Ranger | Rudino Rondador | ✅ | — |
 | Ponman | — | ⏳ | — |
 | Rabbick | Sujoelho | ✅ | — |
 | Head Hathys | — | ⏳ | — |
@@ -76,7 +76,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | GlowShard | Lasca Brilhante | ✅ | — |
-| ReviveMint | RenasciMenta | ✅ | — |
+| ReviveMint | Menta Revivente | ✅ | — |
 | BrokenCake | Bolo Quebrado | ✅ | — |
 
 ### Armaduras
@@ -239,8 +239,9 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
+| Floradinn | Floradino | ✅ | — |
 | Leafling | Folhinha | ✅ | — |
-| Shinobeetle | Ninjouro | ✅ | — |
+| Shinobeetle | Shinobisouro | ✅ | — |
 
 ### Bosses
 
@@ -259,16 +260,17 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
-| GreenTea | Chá de Verde | ✅ | — |
+| GreenTea | Chá Verde | ✅ | — |
+| OrangeJuice | Suco da Laranja | ✅ | — |
 
 ### Armaduras
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | NetskieHat | Chapéu de Nestkie | ✅ | — |
-| AquaKnife | Faca da Turquesa | ✅ | — |
-| BlueShoes | Sapatilhas do Azul | ✅ | — |
-| YellowHat | Chapéu do Amarelo | ✅ | — |
+| AquaKnife | Faca Turquesa | ✅ | — |
+| BlueShoes | Sapatilhas Azuis | ✅ | — |
+| YellowHat | Chapéu Amarelo | ✅ | — |
 | SethSpecs | Óculos de Seth | ✅ | — |
 | WoodBlade2 | Lâmina de Madeira 2 | ⚠️​ | Precisa de ajustes para caber no shop." \\| "Um nome que é desnecessariamente maior porque encaixa no contexto do Capítulo 5."|
 

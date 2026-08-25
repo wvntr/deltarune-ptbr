@@ -1,4 +1,5 @@
-# 🎟️ Versioning e Changelog
+# 🎟️ Versioning e Changelog 
+> ## [ALERTA DE SPOILER]
 
 Cada versão segue um formato bem simples: **`tag-DD-MM-AAAA[-letra]`**.
 
@@ -18,6 +19,54 @@ A data segue o nosso formato de `dia-mês-ano`, e caso **haja mais de uma mudan�
 
 ---
 
+## 🔶 `major-25-08-2026`
+
+#### [CAPÍTULO 5]
+- Diversos polimentos foram feitos para aperfeiçoar a combinação da fala com a personalidade do personagem.
+
+- Progresso significativo no processo de tradução.
+
+- Todas as batalhas com **Netskie**, **Tesourete (Sheary)**, **Folhinha (Leafling)** e **Shi** foram traduzidas.
+
+- Algumas mensagens foram polidas.
+
+- Batalha da Aqua foi polida.
+
+- Alguns diálogos de FLORES foram corrigidos, pois possuem uma formatação única e agora estão perfeitamente alinhadas na textbox (isso vale somente até a Netskie Climb).
+
+- Ninjouro foi alterado para Shinobisouro no glossário para manter a consistência original.
+
+### [ALTERAÇÕES NO CÓDIGO]
+> Com o avanço da tradução, vi que diversas partes próximas da metade do Capítulo 5 são **EXTREMAMENTE MANUAIS** e **hardcoded**, portanto, listaremos as alterações feitas no código aqui *(a versão Inglesa e Japonesa permanecem intactas e inalteradas)*.
+
+- Todo o layout da loja da primeira lanchonete foi reestruturado para ser mais consistente e condizente com a nossa língua, com todos os elementos perfeitamente alinhados em relação aos outros.
+
+  <img width="320" height="240" alt="Image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/103546534/641057730-be53d0e9-0e6e-45f7-a024-751c996ae959.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T165709Z&X-Amz-Expires=300&X-Amz-Signature=7f204355a9f20c97d3bbfa2784d1fa26c59f40aa29a9b909214a9f41425756c3&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng"/>
+
+
+  <img width="320" height="240" alt="Image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/103546534/641067152-979afd0e-44f4-403c-9311-9a961a61110d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T171704Z&X-Amz-Expires=300&X-Amz-Signature=a298bf66b2c6f5772c95fef6f247784afe0848a3d26fd08b4a98da636e3c417c&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng"/>
+
+<br></br>
+
+- Um pequeno aperfeiçoamento foi feito no menu em o nome do capítulo está traduzido e as mensagens em cima dos arquivos são agora centralizadas, semelhante a versão japonesa.
+
+  <img width="329" height="240" alt="Image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/103546534/641061141-788a9dae-65b0-44f7-aaa3-1e8d79a8a3b7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T170354Z&X-Amz-Expires=300&X-Amz-Signature=2b244a6fd7fde51fb54f62c2f849491c71a2c5c7af0a086377d9189bf1cf4d9b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng"/>
+
+<br></br>
+
+- As caixas diálogo da inimiga "Sheary (Tesourete)" durante uma batalha foram realinhados e escalados para os textos traduzidos realmente estarem dentro da caixa, o balão de fala dela não centraliza o texto sozinho pois ele não interage com o writer por algum motivo, as coordenadas do texto E do balão são manualmente definidas no código.
+
+### [PROBLEMAS CONHECIDOS]
+
+- Devido a bagunça que a `lang_pt.json` nativamente é (*sim, oficialmente*), algumas partes do fim/metade do capítulo já foram traduzidas e outras não, portanto, todos os diálogos que são de uma das FLORES que vierem **após a Netskie Climb (Escalada Netskie)** ainda estarão quebrados, porém legíveis, isso se deve ao fato de que não chegamos ainda nessa parte e apenas traduzimos esses diálogos avançados de forma rápida no início do processo de tradução (estamos traduzindo na ordem de progressão do jogo).
+
+### [REPOSITÓRIO]
+
+- `hash-generator.yml` foi corrigido e agora funciona corretamente, isso será importante in-game futuramente.
+
+> Essa atualização foi feita em apenas **1 dia**, **sozinho**, esperem por atualizações maiores, pois temos mais integrantes na equipe agora!
+
+---
 ## 🔶 `major-13-08-2026`
 
 #### [CAPÍTULO 5]
