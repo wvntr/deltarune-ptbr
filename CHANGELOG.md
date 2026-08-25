@@ -41,16 +41,17 @@ A data segue o nosso formato de `dia-mês-ano`, e caso **haja mais de uma mudan�
 
 - Todo o layout da loja da primeira lanchonete foi reestruturado para ser mais consistente e condizente com a nossa língua, com todos os elementos perfeitamente alinhados em relação aos outros.
 
-  <img width="320" height="240" alt="Image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/103546534/641057730-be53d0e9-0e6e-45f7-a024-751c996ae959.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T165709Z&X-Amz-Expires=300&X-Amz-Signature=7f204355a9f20c97d3bbfa2784d1fa26c59f40aa29a9b909214a9f41425756c3&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng"/>
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/4094bcf9-87ac-46cb-bd3a-10d97ca90985" />
 
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/4c98052a-3840-4418-8a64-239d52535820" />
 
-  <img width="320" height="240" alt="Image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/103546534/641067152-979afd0e-44f4-403c-9311-9a961a61110d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T171704Z&X-Amz-Expires=300&X-Amz-Signature=a298bf66b2c6f5772c95fef6f247784afe0848a3d26fd08b4a98da636e3c417c&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng"/>
 
 <br></br>
 
 - Um pequeno aperfeiçoamento foi feito no menu em o nome do capítulo está traduzido e as mensagens em cima dos arquivos são agora centralizadas, semelhante a versão japonesa.
 
-  <img width="329" height="240" alt="Image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/103546534/641061141-788a9dae-65b0-44f7-aaa3-1e8d79a8a3b7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260825%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T170354Z&X-Amz-Expires=300&X-Amz-Signature=2b244a6fd7fde51fb54f62c2f849491c71a2c5c7af0a086377d9189bf1cf4d9b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng"/>
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/4162947d-cc3d-4b15-9750-fbdd99c264c4" />
+
 
 <br></br>
 
