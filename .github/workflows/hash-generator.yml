@@ -3,7 +3,8 @@ name: Gerar Manifest após uma Update
 on:
   push:
     branches:
-      - main-dev 
+      - main-dev
+      - dev
 
 jobs:
   build:
@@ -31,7 +32,7 @@ jobs:
           fi
           
           echo "    { \"path\": \"$arquivo\", \"hash\": \"$HASH\" }" | tr -d '\n' >> manifest.json
-        done < <(find chapter*_windows -type f)
+        done < <(find chapter*_windows -type f -path '*/traduzido/lang_pt.json' | sort)
         
         echo "" >> manifest.json
         echo "  ]" >> manifest.json
