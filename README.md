@@ -59,9 +59,9 @@ O progresso é atualizado automaticamente a cada alteração no repositório.
 
 | Capítulo   | Progresso |
 | :--------- | :-------: |
-| Capítulo 1 | 0% |
-| Capítulo 2 | A ser calculado |
-| Capítulo 3 | A ser calculado |
+| Capítulo 1 | 0.00% |
+| Capítulo 2 | 0.00% |
+| Capítulo 3 | 0.00% |
 | Capítulo 4 |  0.00%   |
 | Capítulo 5 |  57.95%   |
 
