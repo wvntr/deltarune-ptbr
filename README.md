@@ -62,8 +62,8 @@ O progresso é atualizado automaticamente a cada alteração no repositório.
 | Capítulo 1 |  18.24%   |
 | Capítulo 2 |    0%     |
 | Capítulo 3 |    0%     |
-| Capítulo 4 |    0%     |
-| Capítulo 5 |  38.75%   |
+| Capítulo 4 |  0.00%   |
+| Capítulo 5 |  57.95%   |
 
 Deltarune tem um conteúdo extenso e nossa equipe é pequena. Preferimos avançar devagar e revisar com cuidado em vez de soltar um capítulo cheio de erros, por isso, se o progresso parecer lento, é porque estamos entregando algo o mais próximo possível de uma tradução oficial, e isso requer muita revisão.
 
