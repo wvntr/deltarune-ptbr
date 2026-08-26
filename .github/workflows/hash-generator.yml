@@ -6,6 +6,9 @@ on:
       - main-dev
       - dev
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -42,6 +45,7 @@ jobs:
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
+        DATA=$(date +%d/%m/%Y)
         
         git add manifest.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Atualizado 'manifest.json' com novas hashes após update." && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Atualizado para ${DATA}" && git push origin HEAD:${GITHUB_REF_NAME})

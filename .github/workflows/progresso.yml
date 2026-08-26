@@ -3,8 +3,6 @@ name: Progresso da Tradução
 on:
   push:
     branches:
-      - main
-      - main-dev
       - dev
   workflow_dispatch:
 
@@ -106,7 +104,7 @@ jobs:
           git add README.md
           if ! git diff --cached --quiet; then
             git commit -m "Atualizado progresso da tradução no README"
-            git push
+            git push origin HEAD:dev
           else
             echo "Nenhuma alteração para commitar."
           fi
