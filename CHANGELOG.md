@@ -1,23 +1,53 @@
 # 🎟️ Versioning e Changelog 
-> ## [ALERTA DE SPOILER]
+> ## [SPOILERS]
 
 Cada versão segue um formato bem simples: **`tag-DD-MM-AAAA[-letra]`**.
 
 >### 🏷️ Tags
-- **`major`** 🔶 → grande avanço de tradução (seção inteira, batalha, capítulo)
-- **`minor`** 🔸​ → progresso médio/pequeno, ajuste de glossário
-- **`fix`** 🔧​ → correção (typo, bug, formatação)
-- **`meta`** ⚙️ → infraestrutura (README, workflows, changelog, estrutura)
+- **`major`** 🔶 → progresso grande
+- **`minor`** 🔸​ → progresso pequeno
+- **`fix`** 🔧​ → correção
+- **`meta`** ⚙️ → infraestrutura
 
-A data segue o nosso formato de `dia-mês-ano`, e caso **haja mais de uma mudança no mesmo dia**, usaremos a letra do alfabeto correspondente ao número de mudanças já feitas, começando pela letra **B**, seguindo até **Z**.
+A data segue o NOSSO formato de `dia-mês-ano`, e caso **haja mais de uma mudança no mesmo dia**, usaremos a letra do alfabeto correspondente ao número de mudanças já feitas, começando pela letra **B**, seguindo até **Z**.
 
 > O sufixo "OLD" significa apenas que as alterações durante esse período foram feitas ANTES de mudarmos o método de tradução (português sendo um novo idioma e código adaptado).
 
 > Menções a batalhas/bosses/NPCs/lore, etc. que possam estragar a experiência ficarão marcados como spoiler.
 
-> Seguiremos o mesmo método de changelog que o Toby Fox faz quando anuncia um na Steam. (ex: Uma batalha com um certo inimigo cinza foi traduzido.)
-
 ---
+
+## 🔶/⚙️ `major-26-08-2026`
+
+#### [CAPÍTULO 5]
+- Progresso significativo na tradução (38.75% ➔ 57.95%), este progresso em particular foi feito em 1 dia.
+
+- Mais diálogos de flores foram traduzidos e corrigidos.
+
+- As batalhas da dupla **Turquesa** (*Aqua*) **e Seth** e **Crá-Crá** (*Kawkaw*) foram traduzidas.
+
+- Alguns crashes foram corrigidos.
+
+- Algumas mensagens que precisavam ser adaptadas pelo próprio código foram hardcoded, já que só se aplicavam ao idioma português.
+
+> O capítulo 5 é jogável de forma totalmente traduzida até a entrada do *Castelo das Flores*, após a batalha em dupla de *Seth e Turquesa* (*Aqua*).
+
+### [ALTERAÇÕES NO CÓDIGO]
+
+- O código da batalha com **Nubert**, **Bolinha** e **Floradino** foi adaptado para usar o masculino ou feminino dependendo de qual gênero for escolhido na frase *"Can you get me a hot gamer girlfriend."* (*Me arranja um/uma namorado(a) gamer sexy?*)
+
+| Masculino | Feminino |
+|---|---|
+| <img width="320" height="240" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/103546534/641639186-7abf183d-9b8f-437a-b78e-ed0052481177.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260826T143844Z&X-Amz-Expires=300&X-Amz-Signature=5340a212429d5a70d496dd3c2675869de6d316b4dc1d7f2913661a6543463df0&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng"/> | <img width="320" height="240" alt="image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/103546534/641636443-ea7d7fe6-d5bf-4b98-b085-9745a93faa19.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260826T143417Z&X-Amz-Expires=300&X-Amz-Signature=d0fbb33072636f7ffd0c09a61b1f10f3d8348e5afa573ab2fb93151abdea7c93&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng"/> |
+
+- O layout da loja da Pink foi adaptado para o mesmo layout da lanchonete, além de finalmente termos adaptado a *Lâmina de Madeira 2* para não atravessar o texto do preço e estar proporcional.
+
+### [REPOSITÓRIO]
+
+- Adicionada a pasta `/sem-herança` para facilitar a tradução, removendo linhas da lang dos capítulos anteriores.
+- Adicionada a lang capítulo 4 para comparação.
+- `hash-generator.yml` foi corrigido e gera as hashes corretamente.
+- Algumas mudanças menores na estrutura do repositório.
 
 ## 🔶 `major-25-08-2026`
 
