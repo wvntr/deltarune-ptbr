@@ -179,7 +179,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | ShadowMantle | Manto das Sombras | ✅ | — |
-| GingerGuard | Gengiguarda | ✅ | — |
+| GingerGuard | GengiGuarda | ✅ | — |
 | TennaTie | Gravata Tenna | ✅ | — |
 | LodeStone | Magnetita | ✅ | — |
 
@@ -272,12 +272,13 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | BlueShoes | Sapatilhas Azuis | ✅ | — |
 | YellowHat | Chapéu Amarelo | ✅ | — |
 | SethSpecs | Óculos de Seth | ✅ | — |
-| WoodBlade2 | Lâmina de Madeira 2 | ⚠️​ | Precisa de ajustes para caber no shop." \\| "Um nome que é desnecessariamente maior porque encaixa no contexto do Capítulo 5."|
+| WoodBlade2 | Lâmina de Madeira 2 | ✅​ | "Um nome que é desnecessariamente maior porque encaixa no contexto do Capítulo 5." |
 
 ### Armas
 
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | FloweryScarf | Cachecol do Flowery | ✅​ | — |
+| MistleWP | Chicote Viscoso | ✅​ | — |
 
 ---
