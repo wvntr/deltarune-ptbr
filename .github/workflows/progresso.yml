@@ -3,12 +3,7 @@ name: Progresso da Tradução
 on:
   push:
     branches:
-      - main
-      - main-dev
       - dev
-  schedule:
-    # roda diariamente às 12:00 UTC como update de segurança, sim, precisa...
-    - cron: '0 12 * * *'
   workflow_dispatch:
 
 permissions:
@@ -43,43 +38,47 @@ jobs:
               except FileNotFoundError:
                   return {}
 
-          # calcula o progresso de cada chapter*_windows
           resultados = {}
           caps = sorted(RAIZ.glob('chapter*_windows'))
+          prev_en = None
           for cap in caps:
-              pt = carregar(cap / 'lang_pt.json')
+              pt = carregar(cap / 'traduzido' / 'lang_pt.json')
               en = carregar(cap / 'original' / 'lang_en.json')
 
               chaves = {k for k in set(pt) | set(en) if k not in METADATA}
+              if prev_en is not None:
+                  exclusivas = chaves - set(prev_en)
+              else:
+                  exclusivas = chaves
+
               trad = 0
-              for k in chaves:
+              for k in exclusivas:
                   if k not in pt:
-                      continue  # se faltar a respectiva key no lang_pt, dá como não traduzido
+                      continue
                   v = pt[k]
-                  # se for igual ao lang_en, não está traduzido
                   if v == en.get(k):
                       continue
                   trad += 1
 
               m = re.fullmatch(r'chapter(\d+)_windows', cap.name)
               if m:
-                  resultados[int(m.group(1))] = (trad, len(chaves))
+                  resultados[int(m.group(1))] = (trad, len(exclusivas))
+                  prev_en = en
 
           if not resultados:
-              print('Nenhuma pasta chapter*_windows encontrada.')
+              print('nenhuma pasta de capítulo encontrada.')
               exit(1)
 
           for num, (trad, total) in sorted(resultados.items()):
               print(f'Capítulo {num}: {trad}/{total} = {trad/total*100:.2f}%')
 
-          # atualiza a tabela de progresso do README.md
           readme = Path('README.md')
           texto = readme.read_text(encoding='utf-8')
 
           def atualiza_linha(m):
               num = int(m.group(1))
               if num not in resultados:
-                  return m.group(0)  # manter como está se o cap não tiver pasta (temporário enquanto não traduzimos eles)
+                  return m.group(0)
               trad, total = resultados[num]
               pct = trad / total * 100
               return f'| Capítulo {num} |  {pct:.2f}%   |'
