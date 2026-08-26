@@ -3,6 +3,8 @@ name: Progresso da Tradução
 on:
   push:
     branches:
+      - main
+      - main-dev
       - dev
   workflow_dispatch:
 
