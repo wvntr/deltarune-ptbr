@@ -240,6 +240,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | Floradinn | Floradino | ✅ | — |
+| Kawkaw | Crácrá | ✅ | — |
 | Leafling | Folhinha | ✅ | — |
 | Shinobeetle | Shinobisouro | ✅ | — |
 
