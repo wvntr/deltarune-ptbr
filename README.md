@@ -59,11 +59,11 @@ O progresso é atualizado automaticamente a cada alteração no repositório.
 
 | Capítulo   | Progresso |
 | :--------- | :-------: |
-| Capítulo 1 | 0% |
-| Capítulo 2 | A ser calculado |
-| Capítulo 3 | A ser calculado |
-| Capítulo 4 | A ser calculado |
-| Capítulo 5 | A ser calculado |
+| Capítulo 1 | 0.00% |
+| Capítulo 2 | 0.00% |
+| Capítulo 3 | 0.00% |
+| Capítulo 4 |  0.00%   |
+| Capítulo 5 |  57.95%   |
 
 Deltarune tem um conteúdo gigante e nossa equipe é pequena. Preferimos avançar devagar e revisar com cuidado pra entregar algo o mais próximo possível de uma tradução oficial, e sim, leva MUITO mais tempo do que só uma tradução, nós temos que adaptar até **o código**, ou seja, pra esse projeto todo, precisamos de *programadores*, *artistas*, *experientes na língua inglesa*, *voice-actors*, *testadores*...
 É completamente normal a demora, sem contar que cada capítulo tem milhares de linhas, e não centenas e que precisamos testar cada pedaço do jogo e cada possibilidade de diálogo existente.
