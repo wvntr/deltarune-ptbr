@@ -5,46 +5,67 @@ on:
     branches:
       - main-dev
       - dev
+    paths:
+      - 'chapter*_windows/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: dev-automation
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Hash-Calc
-      run: |
-        echo "{" > manifest.json
-        echo "  \"files\": [" >> manifest.json
-        
-        FIRST=true
-        
-        while read -r arquivo; do
-          HASH=$(md5sum "$arquivo" | awk '{print $1}')
-          
-          # interpreta o JSON
-          if [ "$FIRST" = true ]; then
-            FIRST=false
-          else
-            echo "," >> manifest.json
+      - name: Hash-Calc
+        run: |
+          echo "{" > manifest.json
+          echo "  \"files\": [" >> manifest.json
+
+          FIRST=true
+
+          while read -r arquivo; do
+            HASH=$(md5sum "$arquivo" | awk '{print $1}')
+
+            if [ "$FIRST" = true ]; then
+              FIRST=false
+            else
+              echo "," >> manifest.json
+            fi
+
+            echo "    { \"path\": \"$arquivo\", \"hash\": \"$HASH\" }" | tr -d '\n' >> manifest.json
+          done < <(
+            find chapter*_windows \
+              -type f \
+              -path '*/traduzido/lang_pt.json' \
+              ! -path '*/traduzido/variantes/*' \
+              | sort
+          )
+
+          echo "" >> manifest.json
+          echo "  ]" >> manifest.json
+          echo "}" >> manifest.json
+
+      - name: Commit e Push do JSON
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+          DATA=$(date +%d/%m/%Y)
+
+          git add manifest.json
+
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "nada pra alterar no manifest"
+            exit 0
           fi
-          
-          echo "    { \"path\": \"$arquivo\", \"hash\": \"$HASH\" }" | tr -d '\n' >> manifest.json
-        done < <(find chapter*_windows -type f -path '*/traduzido/lang_pt.json' ! -path '*/traduzido/variantes/*' | sort)
-        
-        echo "" >> manifest.json
-        echo "  ]" >> manifest.json
-        echo "}" >> manifest.json
 
-    - name: Commit e Push do JSON
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        DATA=$(date +%d/%m/%Y)
-        
-        git add manifest.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Hashes atualizadas para ${DATA}." && git push origin HEAD:${GITHUB_REF_NAME})
+          git commit -m "Hashes atualizadas para ${DATA}."
+          git push origin HEAD:${GITHUB_REF_NAME}
