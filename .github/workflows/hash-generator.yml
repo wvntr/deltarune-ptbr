@@ -1,4 +1,4 @@
-name: Gerar Manifest após uma Update
+name: Atualizar manifest
 
 on:
   push:
@@ -24,7 +24,6 @@ jobs:
         FIRST=true
         
         while read -r arquivo; do
-          # calcular MD5
           HASH=$(md5sum "$arquivo" | awk '{print $1}')
           
           # interpreta o JSON
@@ -35,7 +34,7 @@ jobs:
           fi
           
           echo "    { \"path\": \"$arquivo\", \"hash\": \"$HASH\" }" | tr -d '\n' >> manifest.json
-        done < <(find chapter*_windows -type f -path '*/traduzido/lang_pt.json' | sort)
+        done < <(find chapter*_windows -type f -path '*/traduzido/lang_pt.json' ! -path '*/traduzido/variantes/*' | sort)
         
         echo "" >> manifest.json
         echo "  ]" >> manifest.json
@@ -48,4 +47,4 @@ jobs:
         DATA=$(date +%d/%m/%Y)
         
         git add manifest.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Atualizado para ${DATA}" && git push origin HEAD:${GITHUB_REF_NAME})
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Hashes atualizadas para ${DATA}." && git push origin HEAD:${GITHUB_REF_NAME})
