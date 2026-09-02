@@ -4,21 +4,18 @@ on:
   push:
     branches:
       - dev
-    paths:
-      - 'chapter*_windows/**'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: dev-automation
+  group: progresso-dev
   cancel-in-progress: false
 
 jobs:
   progresso:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,7 +44,6 @@ jobs:
           resultados = {}
           caps = sorted(RAIZ.glob('chapter*_windows'))
           prev_en = None
-
           for cap in caps:
               pt_path = cap / 'traduzido' / 'lang_pt.json'
               en_path = cap / 'original' / 'lang_en.json'
@@ -58,31 +54,22 @@ jobs:
               pt = carregar(pt_path)
               en = carregar(en_path)
 
-              chaves = {
-                  k for k in set(pt) | set(en)
-                  if k not in METADATA
-              }
-
+              chaves = {k for k in set(pt) | set(en) if k not in METADATA}
               if prev_en is not None:
                   exclusivas = chaves - set(prev_en)
               else:
                   exclusivas = chaves
 
               trad = 0
-
               for k in exclusivas:
                   if k not in pt:
                       continue
-
                   v = pt[k]
-
                   if v == en.get(k):
                       continue
-
                   trad += 1
 
               m = re.fullmatch(r'chapter(\d+)_windows', cap.name)
-
               if m:
                   resultados[int(m.group(1))] = (trad, len(exclusivas))
                   prev_en = en
@@ -92,23 +79,17 @@ jobs:
               exit(1)
 
           for num, (trad, total) in sorted(resultados.items()):
-              print(
-                  f'Capítulo {num}: '
-                  f'{trad}/{total} = {trad/total*100:.2f}%'
-              )
+              print(f'Capítulo {num}: {trad}/{total} = {trad/total*100:.2f}%')
 
           readme = Path('README.md')
           texto = readme.read_text(encoding='utf-8')
 
           def atualiza_linha(m):
               num = int(m.group(1))
-
               if num not in resultados:
                   return m.group(0)
-
               trad, total = resultados[num]
               pct = trad / total * 100
-
               return f'| Capítulo {num} |  {pct:.2f}%   |'
 
           novo = re.sub(
@@ -120,22 +101,25 @@ jobs:
 
           if novo != texto:
               readme.write_text(novo, encoding='utf-8')
+              print('README.md atualizado.')
           else:
-              print('nada pra modifiar')
+              print('README.md sem alterações.')
           PY
 
       - name: Atualizar progresso
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          DATA=$(date +%d/%m/%Y)
+
+          git fetch origin dev
+          git rebase origin/dev
 
           git add README.md
-
-          DATA=$(date +%d/%m/%Y)
 
           if ! git diff --cached --quiet; then
             git commit -m "Progresso atualizado para ${DATA}."
             git push origin HEAD:dev
           else
-            echo "nada pra commitar"
+            echo "Nenhuma alteração para commitar."
           fi

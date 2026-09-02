@@ -4,25 +4,28 @@ on:
   push:
     branches:
       - main-dev
-      - dev
-    paths:
-      - 'chapter*_windows/**'
-  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Progresso da Tradução
+    types:
+      - completed
 
 permissions:
   contents: write
 
 concurrency:
-  group: dev-automation
+  group: hash-generator
   cancel-in-progress: false
 
 jobs:
   build:
+    if: github.event_name == 'push' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'dev')
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref_name }}
 
       - name: Hash-Calc
         run: |
@@ -41,13 +44,7 @@ jobs:
             fi
 
             echo "    { \"path\": \"$arquivo\", \"hash\": \"$HASH\" }" | tr -d '\n' >> manifest.json
-          done < <(
-            find chapter*_windows \
-              -type f \
-              -path '*/traduzido/lang_pt.json' \
-              ! -path '*/traduzido/variantes/*' \
-              | sort
-          )
+          done < <(find chapter*_windows -type f -path '*/traduzido/lang_pt.json' ! -path '*/traduzido/variantes/*' | sort)
 
           echo "" >> manifest.json
           echo "  ]" >> manifest.json
@@ -57,15 +54,20 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-
           DATA=$(date +%d/%m/%Y)
 
           git add manifest.json
 
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "nada pra alterar no manifest"
-            exit 0
-          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Hashes atualizadas para ${DATA}."
 
-          git commit -m "Hashes atualizadas para ${DATA}."
-          git push origin HEAD:${GITHUB_REF_NAME}
+            if [ "${{ github.event_name }}" = "workflow_run" ]; then
+              BRANCH="${{ github.event.workflow_run.head_branch }}"
+            else
+              BRANCH="${GITHUB_REF_NAME}"
+            fi
+
+            git push origin HEAD:"$BRANCH"
+          else
+            echo "Nenhuma alteração para commitar."
+          fi
