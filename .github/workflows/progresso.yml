@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Calcular progresso e atualizar README
+      - name: Progresso atualizado.
         shell: bash
         run: |
           python3 - <<'PY'
@@ -42,8 +42,14 @@ jobs:
           caps = sorted(RAIZ.glob('chapter*_windows'))
           prev_en = None
           for cap in caps:
-              pt = carregar(cap / 'traduzido' / 'lang_pt.json')
-              en = carregar(cap / 'original' / 'lang_en.json')
+              pt_path = cap / 'traduzido' / 'lang_pt.json'
+              en_path = cap / 'original' / 'lang_en.json'
+
+              if not pt_path.exists() or not en_path.exists():
+                  continue
+
+              pt = carregar(pt_path)
+              en = carregar(en_path)
 
               chaves = {k for k in set(pt) | set(en) if k not in METADATA}
               if prev_en is not None:
@@ -97,13 +103,14 @@ jobs:
               print('README.md sem alterações.')
           PY
 
-      - name: Commit e push do README atualizado
+      - name: Atualizar progresso
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
+          DATA=$(date +%d/%m/%Y)
           if ! git diff --cached --quiet; then
-            git commit -m "Atualizado progresso da tradução no README"
+            git commit -m "Progresso atualizado para ${DATA}."
             git push origin HEAD:dev
           else
             echo "Nenhuma alteração para commitar."
