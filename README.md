@@ -104,12 +104,15 @@ A parte técnica é explicada com calma pra quem entra. Todos são muito bem-vin
 
 ## Equipe
 
-| Função      | Colaboradores |
-| :---------- | :------------ |
-| Coordenação | [wiintery](https://github.com/wvntr) |
-| Tradução    | wiintery, FennyxRush |
-| Revisão     | Batotaskk, wiintery |
-| Testers     | Batotaskk, KazzyTTV, MattViperAU, UnderStaleHe |
+| Função        | Colaboradores |
+| :------------ | :------------ |
+| Coordenação   | wiintery |
+| Tradução      | wiintery |
+| Voice Acting  | FennyxRush (Flowery) |
+| Revisão       | wiintery |
+| Testers       | Batotaskk, KazzyTTV, MattViperAU, UnderStaleHe |
+
+
 
 ---
 
