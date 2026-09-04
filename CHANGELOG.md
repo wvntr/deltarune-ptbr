@@ -1,23 +1,72 @@
 # 🎟️ Versioning e Changelog 
-> ## [SPOILERS]
 
-Cada versão segue um formato bem simples: **`tag-DD-MM-AAAA[-letra]`**.
+Cada versão segue o formato **`tag-DD-MM-AAAA[-letra]`**.
 
->### 🏷️ Tags
-- **`major`** 🔶 → progresso grande
-- **`minor`** 🔸​ → progresso pequeno
-- **`fix`** 🔧​ → correção
-- **`meta`** ⚙️ → infraestrutura
+A data segue o nosso formato de `dia-mês-ano`, e caso **haja mais de uma mudança no mesmo dia**, usaremos a letra do alfabeto correspondente ao número de mudanças já feitas, começando pela letra **B**, seguindo até **Z**.
 
-A data segue o NOSSO formato de `dia-mês-ano`, e caso **haja mais de uma mudança no mesmo dia**, usaremos a letra do alfabeto correspondente ao número de mudanças já feitas, começando pela letra **B**, seguindo até **Z**.
-
-> O sufixo "OLD" significa apenas que as alterações durante esse período foram feitas ANTES de mudarmos o método de tradução (português sendo um novo idioma e código adaptado).
-
-> Menções a batalhas/bosses/NPCs/lore, etc. que possam estragar a experiência ficarão marcados como spoiler.
+## 🏷️ Tags
+- #### `🔶` 
+  - Progresso significativo.
+- #### `🔸`
+  - Progresso menor.
+- #### `🔧`
+  - Correção, revisão, bugfix...
+- #### `⚙️`
+  - Mudança no repositório
 
 ---
 
-## 🔶/⚙️ `major-26-08-2026`
+> [!NOTE]
+> - O sufixo `old` significa apenas que as alterações durante esse período foram feitas ANTES de mudarmos o método de tradução para um idioma standalone.
+
+> [!CAUTION]
+> #### Este changelog contém **spoilers serevos**.
+
+---
+
+## 🔶 | ⚙️ | 🔧 `major-03-09-2026` + `04-09-2026`
+
+> Essa update possui "2 dias" por ter levado absurdas 12 horas para ser feita e foi concluída no "mesmo dia".
+
+#### [CAPÍTULO 5]
+- `[+]` O sprite do subtítulo "CHAPTER 5" da intro do jogo foi traduzido e aparecerá caso o jogo esteja definido como Português, caso contrário, o subtítulo original permanece.
+
+- `[+]` A batalha da dupla **Verde** (*Green*) **e Laranja** (*Orange*) foi traduzida.
+
+- `[+]` Diversos itens, armaduras e armas e suas descrições foram traduzidos.
+
+- `[+]` Todas as perguntas da Pink foram recriadas para terem trocadilhos que façam sentido (*ou o mínimo de sentido...*) no Português.
+
+- `🔧` Uma quantidade considerável de diálogos variados foi polida.
+
+### [ALTERAÇÕES NO CÓDIGO]
+
+- `🔧` Um bug que vinha da própria versão japonesa original que afetava a Portuguesa foi consertado onde ao rolar a lista de armas/armaduras o ícone do coração de seleção desalinhava 1 pixel a cada opção rolada para baixo, isso ocorria porque algumas partes do código incluem o Português junto do Japonês na mesma condicional, visto a semelhança da necessidade de adaptação.
+
+- `🔧` O alinhamento do `TEMP_COMMENT` (*mensagem acima da seleção de arquivos*) foi definido para a esquerda em vez do meio para se adequar ao original.
+
+- `🔧` O código que desenha o `obj_darkcontroller` (*menus de item, equipamento, poder e configurações no Dark World*) foi revisado e "otimizado".
+
+- `[+]` A batalha da Pink agora é jogável e todos os textos encaixam nas caixas, no entanto, algumas falas permanecem sem tradução por conta da quantiadade de tempo absurda que demorou para o código do encontro ser adaptado.
+
+- `[+]` O menu da máquina de bebidas da Cafeteria das Flores foi adaptado para acomodar o texto da "Bebida Grátis" que aparece após o Flowery dar os vouchers da cafeteria.
+
+- `[+]` A interface do "Break Time" (Intervalo com as Flores) na Cafeteria das Flores foi adaptada para acomodar os textos em Português.
+
+> [!NOTE]
+> - O bug do desalinhamento de 1 pixel ainda permanece na versão Japonesa e foi "remediado" apenas para não afetar a Portuguesa, pois isso é do próprio jogo original.
+> - O Capítulo 5 agora é 100% zerável de forma traduzida.
+> - O glossário só terá as novas traduções na próxima atualização.
+
+### [REPOSITÓRIO]
+
+- `⚙️` O repositório não acompanha mais as versões sem herança da lang.
+- `⚙️` O `hash-generator.yml` e `progresso.yml` foram consertados e agora executam normalmente.
+- `⚙️` O próprio `CHANGELOG.md` foi aprimorado e reformado para uma "melhor aparência".
+
+---
+
+## 🔶 | ⚙️ `major-26-08-2026`
 
 #### [CAPÍTULO 5]
 - Progresso significativo na tradução (38.75% ➔ 57.95%), este progresso em particular foi feito em 1 dia.
@@ -30,6 +79,7 @@ A data segue o NOSSO formato de `dia-mês-ano`, e caso **haja mais de uma mudan�
 
 - Algumas mensagens que precisavam ser adaptadas pelo próprio código foram hardcoded, já que só se aplicavam ao idioma português.
 
+> [!NOTE]
 > O capítulo 5 é jogável de forma totalmente traduzida até a entrada do *Castelo das Flores*, após a batalha em dupla de *Seth e Turquesa* (*Aqua*).
 
 ### [ALTERAÇÕES NO CÓDIGO]
