@@ -43,7 +43,7 @@ O progresso é atualizado automaticamente a cada alteração no repositório.
 | Capítulo 2 | 0.00%     |
 | Capítulo 3 | 0.00%     |
 | Capítulo 4 |  0.00%   |
-| Capítulo 5 |  76.02%   |
+| Capítulo 5 |  76.67%   |
 
 Deltarune tem um conteúdo gigante e nossa equipe é pequena. Preferimos avançar devagar e revisar com cuidado pra entregar algo o mais próximo possível de uma tradução oficial, e sim, leva MUITO mais tempo do que só uma tradução, nós temos que adaptar até **o código**, o que significa que são centenas de linhas a serem modificadas para acomodar o nosso idioma no jogo.
 É completamente normal a demora, sem contar que cada capítulo possui milhares de linhas e precisamos testar cada pedaço do jogo pra garantir que tudo esteja conforme o esperado.
