@@ -15,13 +15,11 @@ Uma tradução não oficial de [DELTARUNE](https://deltarune.com/), de Toby Fox,
 ## Índice
 
 - [Sobre o projeto](#sobre-o-projeto)
-- [O que nos diferencia](#o-que-nos-diferencia)
+- [O que fazemos de diferente](#o-que-fazemos-de-diferente)
 - [Progresso](#progresso)
 - [Glossário](#glossário)
 - [Encontrou um erro?](#encontrou-um-erro)
-- [Como contribuir](#como-contribuir)
 - [Equipe](#equipe)
-- [Aviso legal](#aviso-legal)
 
 ---
 
@@ -32,6 +30,27 @@ Deltarune não foi pensado pro português, o humor, os trocadilhos e a personali
 O português é adicionado como um terceiro idioma, assim mantendo o inglês e o japonês **intactos**, pois sabemos que é chato ficar reinstalando tradução, mudando arquivos, ou se você simplesmente quiser jogar em inglês.
 
 > Quer acompanhar o projeto ou tirar dúvidas? Junte-se à [comunidade no Discord](https://discord.gg/jh4r47Hdnn).
+
+---
+
+## Progresso
+
+O progresso é atualizado automaticamente a cada alteração no repositório.
+
+| Capítulo   | Progresso |
+| :--------- | :-------: |
+| Capítulo 1 | 0.00%     |
+| Capítulo 2 | 0.00%     |
+| Capítulo 3 | 0.00%     |
+| Capítulo 4 |  0.00%   |
+| Capítulo 5 |  76.02%   |
+
+Deltarune tem um conteúdo gigante e nossa equipe é pequena. Preferimos avançar devagar e revisar com cuidado pra entregar algo o mais próximo possível de uma tradução oficial, e sim, leva MUITO mais tempo do que só uma tradução, nós temos que adaptar até **o código**, o que significa que são centenas de linhas a serem modificadas para acomodar o nosso idioma no jogo.
+É completamente normal a demora, sem contar que cada capítulo possui milhares de linhas e precisamos testar cada pedaço do jogo pra garantir que tudo esteja conforme o esperado.
+
+> [!NOTE]
+> Caso esteja se perguntando qual a posição do Toby Fox em relação a fan-translations, o mesmo já [se posicionou publicamente](https://bsky.app/profile/tobyfox.undertale.com/post/3mia4smxehk2a) a favor de traduções feitas por fãs, ele apenas não pode validar outros idiomas oficialmente por ser fluente apenas em inglês e japonês. 
+> Por isso, vimos isso como um espaço para tentarmos entregar algo próximo do que ele pensaria se uma localização oficial Portuguesa existisse.
 
 ---
 
@@ -46,30 +65,13 @@ Já com a gente é diferente, nós implementamos o português como um idioma nov
 - **Piadas e trocadilhos:** reescritas pra funcionar em português, tentaremos manter ao máximo a intenção da piada.
 - **Pronomes:** nós preservamos cada pronome de cada personagem, portanto, caso encontre uma atribuição de gênero errada, [reporte](https://github.com/wvntr/deltarune-ptbr/issues/new) assim que puder, nós realmente tratamos erros de pronome como algo sério.
 
-> **ISSO NÃO É UM "MOD"!** 
-Absolutamente TUDO que modificarmos se aplicará APENAS se o seu idioma for selecionado como português, como dito antes: o inglês e o japonês permanecem INTACTOS, isso se aplica até mesmo ao código da `data.win`.
 
 No fim, queremos que você jogue sem lembrar que está jogando uma tradução, então manteremos e atualizaremos como se o idioma português fosse um pedaço do jogo "nosso" e ofereceremos total suporte em relação a versão portuguesa.
 
----
-
-## Progresso
-
-O progresso é atualizado automaticamente a cada alteração no repositório.
-
-| Capítulo   | Progresso |
-| :--------- | :-------: |
-| Capítulo 1 | 0.00% |
-| Capítulo 2 | 0.00% |
-| Capítulo 3 | 0.00% |
-| Capítulo 4 |  0.00%   |
-| Capítulo 5 |  76.02%   |
-
-Deltarune tem um conteúdo gigante e nossa equipe é pequena. Preferimos avançar devagar e revisar com cuidado pra entregar algo o mais próximo possível de uma tradução oficial, e sim, leva MUITO mais tempo do que só uma tradução, nós temos que adaptar até **o código**, ou seja, pra esse projeto todo, precisamos de *programadores*, *artistas*, *experientes na língua inglesa*, *voice-actors*, *testadores*...
-É completamente normal a demora, sem contar que cada capítulo tem milhares de linhas, e não centenas e que precisamos testar cada pedaço do jogo e cada possibilidade de diálogo existente.
-
-Caso esteja se perguntando qual a posição do Toby Fox em relação a fan-translations, o mesmo já [se posicionou publicamente](https://bsky.app/profile/tobyfox.undertale.com/post/3mia4smxehk2a) a favor de traduções feitas por fãs, ele apenas não pode validar outros idiomas oficialmente por ser fluente apenas em inglês e japonês. 
-Por isso, vimos isso como um espaço para tentarmos entregar algo próximo do que ele pensaria, com a personalidade dele.
+> [!NOTE]
+> Isso não é exatamente um "mod", ou pelo menos não é esse o propósito.
+>  
+> Absolutamente TUDO que modificarmos se aplicará APENAS se o seu idioma for selecionado como português, como dito antes: o inglês e o japonês permanecem intocados, o mesmo vale para a `data.win`.
 
 ---
 
@@ -92,16 +94,6 @@ Agradecemos demais por ajudar a gente a melhorar esse projeto! ❤️
 
 ---
 
-## Como contribuir
-
-Se gosta do jogo e tem interesse em tradução, arte ou dublagem, ficaremos felizes em ter você na equipe:
-
-Entre na [comunidade do Discord](https://discord.gg/jh4r47Hdnn) e fale com a equipe.
-
-A parte técnica é explicada com calma pra quem entra. Todos são muito bem-vindos!
-
----
-
 ## Equipe
 
 | Função        | Colaboradores |
@@ -112,14 +104,14 @@ A parte técnica é explicada com calma pra quem entra. Todos são muito bem-vin
 | Revisão       | wiintery |
 | Testers       | Batotaskk, KazzyTTV, MattViperAU, UnderStaleHe |
 
-
-
 ---
 
-## Aviso legal
-
-UNDERTALE & DELTARUNE são propriedade de **Toby Fox**.
-
-Este é um projeto independente, não oficial e sem fins lucrativos, feito exclusivamente para oferecer a jogadores brasileiros a opção de jogar no idioma-natal. Nenhum arquivo executável do jogo é distribuído neste repositório.
+> [!WARNING]
+>
+> UNDERTALE & DELTARUNE são propriedade de **Toby Fox**.
+> 
+> Este é um projeto independente, não oficial e sem fins lucrativos, feito exclusivamente para oferecer a jogadores brasileiros a opção de desfrutar do jogo no idioma-natal.
+>
+> Nenhum arquivo executável do jogo é distribuído neste repositório.
 
 ---
