@@ -28,7 +28,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | HP | HP | — | Não traduzido por já ser padronizada em todos os jogos. |
-| TP | PA | ✅ | Pontos de Adrenalina, traduzido por ser uma mecânica exclusiva do DELTARUNE. |
+| TP | PA | ✅ | Pontos de Adrenalina, traduzido por ser uma mecânica exclusiva do DELTARUNE, e não, não vamos chamar de "PT" por motivos óbvios. |
 
 ### Armas
 
@@ -222,6 +222,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | Waferguard | Hóstiamuleto | ✅ | — |
+| PrincessRBN | Laço de Princesa | ✅ | — |
 
 ### Armas
 
@@ -269,7 +270,7 @@ Alguns termos que aparecem em múltiplos capítulos ou até mesmo todos.
 | Original | Tradução | Status | Nota |
 |---|---|---|---|
 | NetskieHat | Chapéu de Nestkie | ✅ | — |
-| AquaKnife | Faca Turquesa | ✅ | — |
+| AquaKnife | Faca da Turquesa | ✅ | — |
 | BlueShoes | Sapatilhas Azuis | ✅ | — |
 | YellowHat | Chapéu Amarelo | ✅ | — |
 | SethSpecs | Óculos de Seth | ✅ | — |
