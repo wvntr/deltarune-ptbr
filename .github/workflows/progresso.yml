@@ -2,8 +2,10 @@ name: Progresso da Tradução
 
 on:
   push:
-    branches:
-      - dev
+    branches: [dev]
+    paths-ignore:
+      - README.md
+      - manifest.json
   workflow_dispatch:
 
 permissions:
@@ -17,15 +19,16 @@ jobs:
   progresso:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+          fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Progresso atualizado.
+      - name: Atualizar README
         shell: bash
         run: |
           python3 - <<'PY'
@@ -47,28 +50,13 @@ jobs:
           for cap in caps:
               pt_path = cap / 'traduzido' / 'lang_pt.json'
               en_path = cap / 'original' / 'lang_en.json'
-
               if not pt_path.exists() or not en_path.exists():
                   continue
-
               pt = carregar(pt_path)
               en = carregar(en_path)
-
               chaves = {k for k in set(pt) | set(en) if k not in METADATA}
-              if prev_en is not None:
-                  exclusivas = chaves - set(prev_en)
-              else:
-                  exclusivas = chaves
-
-              trad = 0
-              for k in exclusivas:
-                  if k not in pt:
-                      continue
-                  v = pt[k]
-                  if v == en.get(k):
-                      continue
-                  trad += 1
-
+              exclusivas = chaves - set(prev_en) if prev_en is not None else chaves
+              trad = sum(1 for k in exclusivas if k in pt and pt[k] != en.get(k))
               m = re.fullmatch(r'chapter(\d+)_windows', cap.name)
               if m:
                   resultados[int(m.group(1))] = (trad, len(exclusivas))
@@ -76,7 +64,7 @@ jobs:
 
           if not resultados:
               print('nenhuma pasta de capítulo encontrada.')
-              exit(1)
+              raise SystemExit(1)
 
           for num, (trad, total) in sorted(resultados.items()):
               print(f'Capítulo {num}: {trad}/{total} = {trad/total*100:.2f}%')
@@ -106,19 +94,32 @@ jobs:
               print('README.md sem alterações.')
           PY
 
-      - name: Atualizar progresso
+      - name: Commit e push
+        shell: bash
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           DATA=$(date +%d/%m/%Y)
 
           git add README.md
 
-          if ! git diff --cached --quiet; then
-            git commit -m "Progresso atualizado para ${DATA}."
-            git fetch origin dev
-            git rebase origin/dev
-            git push origin HEAD:dev
-          else
+          if git diff --cached --quiet; then
             echo "Nenhuma alteração para commitar."
+            exit 0
           fi
+
+          git commit -m "Progresso atualizado para ${DATA}."
+
+          for i in 1 2 3; do
+            git fetch origin dev
+            if ! git rebase origin/dev; then
+              git rebase --abort
+              exit 1
+            fi
+            if git push origin HEAD:dev; then
+              exit 0
+            fi
+            sleep $((i * 3))
+          done
+
+          exit 1
