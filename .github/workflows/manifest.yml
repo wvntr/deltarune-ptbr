@@ -1,0 +1,85 @@
+name: Atualizar manifest
+
+on:
+  push:
+    branches: [dev]
+    paths-ignore:
+      - README.md
+      - manifest.json
+  workflow_run:
+    workflows: [Progresso da Tradução]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hash-generator
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name == 'push' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'dev')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Gerar manifest
+        shell: bash
+        run: |
+          {
+            echo "{"
+            echo "  \"files\": ["
+            FIRST=true
+            while read -r arquivo; do
+              HASH=$(md5sum "$arquivo" | awk '{print $1}')
+              if [ "$FIRST" = true ]; then
+                FIRST=false
+              else
+                echo ","
+              fi
+              printf '    { "path": "%s", "hash": "%s" }' "$arquivo" "$HASH"
+            done < <(find chapter*_windows -type f -path '*/traduzido/lang_pt.json' ! -path '*/traduzido/variantes/*' | sort)
+            echo ""
+            echo "  ]"
+            echo "}"
+          } > manifest.json
+
+      - name: Commit e push
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          DATA=$(date +%d/%m/%Y)
+
+          git add manifest.json
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commitar."
+            exit 0
+          fi
+
+          git commit -m "Hashes atualizadas para ${DATA}."
+
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            BRANCH="${{ github.event.workflow_run.head_branch }}"
+          else
+            BRANCH="${GITHUB_REF_NAME}"
+          fi
+
+          for i in 1 2 3; do
+            git fetch origin "$BRANCH"
+            if ! git rebase "origin/$BRANCH"; then
+              git rebase --abort
+              exit 1
+            fi
+            if git push origin "HEAD:$BRANCH"; then
+              exit 0
+            fi
+            sleep $((i * 3))
+          done
+
+          exit 1
